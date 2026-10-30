@@ -1,8 +1,4 @@
 .venv/
 datasets/
-checkpoint/
-logs/
-*.pth
 __pycache__/
-log/
 .DS_Store
