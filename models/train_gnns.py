@@ -239,7 +239,8 @@ def train_GC(clst, sep):
 
     print(f"The best validation accuracy is {best_acc}.")
     # report test msg
-    checkpoint = torch.load(os.path.join(ckpt_dir, f'{model_args.model_name}_best.pth'))
+    #checkpoint = torch.load(os.path.join(ckpt_dir, f'{model_args.model_name}_best.pth')) #before
+    checkpoint = torch.load(os.path.join(ckpt_dir, f'{model_args.model_name}_best.pth'), weights_only=False) #after
     gnnNets.update_state_dict(checkpoint['net'])
     test_state, _, _ = test_GC(dataloader['test'], gnnNets, criterion)
     print(f"Test: | Loss: {test_state['loss']:.3f} | Acc: {test_state['acc']:.3f}")

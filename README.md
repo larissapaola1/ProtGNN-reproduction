@@ -1,3 +1,7 @@
+> **Reproduction copy.** This is a reproduction of ProtGNN for [course / challenge name].
+> The original README follows unchanged. My changes and findings are in REPRODUCTION_LOG.md.
+> Original repo: https://github.com/zaixizhang/ProtGNN
+
 # ProtGNN
 Official implementation of AAAI'22 paper "ProtGNN: Towards Self-Explaining Graph Neural Networks" (https://arxiv.org/abs/2112.00911)
 <div align=center><img src="https://github.com/zaixizhang/ProtGNN/blob/main/protgnn.png" width="700"/></div>

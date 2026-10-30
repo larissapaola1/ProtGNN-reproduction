@@ -3,7 +3,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 from torch_geometric.nn.conv import GCNConv
 from torch_geometric.nn.glob import global_mean_pool, global_add_pool, global_max_pool
-from torch_geometric.nn.pool.topk_pool import topk
+#from torch_geometric.nn.pool.topk_pool import topk #paola commented out
 
 
 def get_readout_layers(readout):
@@ -28,7 +28,8 @@ class GCNNet(nn.Module):
         self.latent_dim = model_args.latent_dim
         self.mlp_hidden = model_args.mlp_hidden
         self.emb_normlize = model_args.emb_normlize
-        self.device = torch.device('cuda:'+str(model_args.device))
+        #self.device = torch.device('cuda:'+str(model_args.device)) #before
+        self.device = model_args.device #after
         self.num_gnn_layers = len(self.latent_dim)
         self.num_mlp_layers = len(self.mlp_hidden) + 1
         self.dense_dim = self.latent_dim[-1]
@@ -145,7 +146,8 @@ class GCNNet_NC(nn.Module):
         self.latent_dim = model_args.latent_dim
         self.mlp_hidden = model_args.mlp_hidden
         self.emb_normlize = model_args.emb_normlize
-        self.device = torch.device('cuda:'+str(model_args.device))
+        #self.device = torch.device('cuda:'+str(model_args.device)) #before
+        self.device = model_args.device #after
         self.concate = model_args.concate
         self.num_gnn_layers = len(self.latent_dim)
         self.num_mlp_layers = len(self.mlp_hidden) + 1
