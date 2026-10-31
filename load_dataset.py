@@ -108,7 +108,8 @@ def get_dataset(dataset_dir, dataset_name, task=None):
         'Tree_Cycle'.lower(): 'Tree_Cycle',
         'Tree_Grids'.lower(): 'Tree_Grids',
     }
-    sentigraph_names = ['Graph_SST2', 'Graph_Twitter', 'Graph_SST5']
+    #sentigraph_names = ['Graph_SST2', 'Graph_Twitter', 'Graph_SST5'] #before
+    sentigraph_names = ['Graph-SST2', 'Graph_Twitter', 'Graph_SST5'] #after
     sentigraph_names = [name.lower() for name in sentigraph_names]
     molecule_net_dataset_names = [name.lower() for name in MoleculeNet.names.keys()]
 
@@ -130,8 +131,8 @@ class MUTAGDataset(InMemoryDataset):
         self.root = root
         self.name = name.upper()
         super(MUTAGDataset, self).__init__(root, transform, pre_transform)
-        self.data, self.slices = torch.load(self.processed_paths[0])
-
+        #self.data, self.slices = torch.load(self.processed_paths[0]) #before
+        self.data, self.slices = torch.load(self.processed_paths[0],weights_only=False) #after
     def __len__(self):
         return len(self.slices['x']) - 1
 
@@ -197,7 +198,8 @@ class SentiGraphDataset(InMemoryDataset):
     def __init__(self, root, name, transform=None, pre_transform=undirected_graph):
         self.name = name
         super(SentiGraphDataset, self).__init__(root, transform, pre_transform)
-        self.data, self.slices, self.supplement = torch.load(self.processed_paths[0])
+        #self.data, self.slices, self.supplement = torch.load(self.processed_paths[0]) #before
+        self.data, self.slices, self.supplement = torch.load(self.processed_paths[0], weights_only=False) #after
 
     @property
     def raw_dir(self):
@@ -237,7 +239,8 @@ class SynGraphDataset(InMemoryDataset):
     def __init__(self, root, name, transform=None, pre_transform=None):
         self.name = name
         super(SynGraphDataset, self).__init__(root, transform, pre_transform)
-        self.data, self.slices = torch.load(self.processed_paths[0])
+        #self.data, self.slices = torch.load(self.processed_paths[0]) #before
+        self.data, self.slices = torch.load(self.processed_paths[0], weights_only=False) #after
 
     @property
     def raw_dir(self):
@@ -266,8 +269,8 @@ class BA2MotifDataset(InMemoryDataset):
     def __init__(self, root, name, transform=None, pre_transform=None):
         self.name = name
         super(BA2MotifDataset, self).__init__(root, transform, pre_transform)
-        self.data, self.slices = torch.load(self.processed_paths[0])
-
+        #self.data, self.slices = torch.load(self.processed_paths[0]) #before
+        self.data, self.slices = torch.load(self.processed_paths[0], weights_only=False) #after
     @property
     def raw_dir(self):
         return osp.join(self.root, self.name, 'raw')
