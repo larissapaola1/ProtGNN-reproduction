@@ -1,0 +1,53 @@
+=== Dataset=bbbp | Variant=Original | Model=GCN | Seed=1 ===
+0.1
+0.05
+start loading data====================
+/Users/paolalarissahernandezllamas/Documents/Documentos - Paola’s MacBook Pro/Fall 26/Generative AI/Working/ProtGNN/load_dataset.py:328: UserWarning: It is not recommended to directly access the internal storage format `data` of an 'InMemoryDataset'. If you are absolutely certain what you are doing, access the internal storage via `InMemoryDataset._data` instead to suppress this warning. Alternatively, you can access stacked individual attributes of every graph via `dataset.{attr_name}`.
+  dataset.data.x = dataset.data.x.float()
+/Users/paolalarissahernandezllamas/Documents/Documentos - Paola’s MacBook Pro/Fall 26/Generative AI/Working/ProtGNN/load_dataset.py:330: UserWarning: It is not recommended to directly access the internal storage format `data` of an 'InMemoryDataset'. If you are absolutely certain what you are doing, access the internal storage via `InMemoryDataset._data` instead to suppress this warning. Alternatively, you can access stacked individual attributes of every graph via `dataset.{attr_name}`.
+  dataset.data.y = dataset.data.y.squeeze().long()
+/Users/paolalarissahernandezllamas/Documents/Documentos - Paola’s MacBook Pro/Fall 26/Generative AI/Working/ProtGNN/load_dataset.py:374: UserWarning: 'data.DataLoader' is deprecated, use 'loader.DataLoader' instead
+  dataloader['train'] = DataLoader(train, batch_size=batch_size, shuffle=True)
+/Users/paolalarissahernandezllamas/Documents/Documentos - Paola’s MacBook Pro/Fall 26/Generative AI/Working/ProtGNN/load_dataset.py:375: UserWarning: 'data.DataLoader' is deprecated, use 'loader.DataLoader' instead
+  dataloader['eval'] = DataLoader(eval, batch_size=batch_size, shuffle=False)
+/Users/paolalarissahernandezllamas/Documents/Documentos - Paola’s MacBook Pro/Fall 26/Generative AI/Working/ProtGNN/load_dataset.py:376: UserWarning: 'data.DataLoader' is deprecated, use 'loader.DataLoader' instead
+  dataloader['test'] = DataLoader(test, batch_size=batch_size, shuffle=False)
+start training model==================
+graphs 2039, avg_nodes24.0647, avg_edge_index_25.9544
+The total num of dataset is 2039
+Train Epoch:0  |Loss: 0.583 | Ld: 0.000 | Acc: 0.751
+Eval Epoch: 0 | Loss: 0.540 | Acc: 0.818
+saving....
+Train Epoch:1  |Loss: 0.562 | Ld: 0.000 | Acc: 0.761
+Eval Epoch: 1 | Loss: 0.509 | Acc: 0.818
+Train Epoch:2  |Loss: 0.551 | Ld: 0.000 | Acc: 0.760
+Eval Epoch: 2 | Loss: 0.473 | Acc: 0.818
+Train Epoch:3  |Loss: 0.543 | Ld: 0.000 | Acc: 0.761
+Eval Epoch: 3 | Loss: 0.460 | Acc: 0.818
+Train Epoch:4  |Loss: 0.521 | Ld: 0.000 | Acc: 0.763
+Eval Epoch: 4 | Loss: 0.448 | Acc: 0.818
+Train Epoch:5  |Loss: 0.492 | Ld: 0.000 | Acc: 0.778
+Eval Epoch: 5 | Loss: 0.437 | Acc: 0.813
+Train Epoch:6  |Loss: 0.484 | Ld: 0.000 | Acc: 0.790
+Eval Epoch: 6 | Loss: 0.400 | Acc: 0.823
+saving....
+Train Epoch:7  |Loss: 0.481 | Ld: 0.000 | Acc: 0.781
+Eval Epoch: 7 | Loss: 0.441 | Acc: 0.828
+saving....
+Train Epoch:8  |Loss: 0.478 | Ld: 0.000 | Acc: 0.794
+Eval Epoch: 8 | Loss: 0.391 | Acc: 0.828
+Train Epoch:9  |Loss: 0.472 | Ld: 0.000 | Acc: 0.790
+Eval Epoch: 9 | Loss: 0.428 | Acc: 0.857
+saving....
+Train Epoch:10  |Loss: 0.461 | Ld: 0.000 | Acc: 0.811
+Eval Epoch: 10 | Loss: 0.409 | Acc: 0.828
+saving....
+Train Epoch:11  |Loss: 0.446 | Ld: 0.000 | Acc: 0.821
+Eval Epoch: 11 | Loss: 0.546 | Acc: 0.773
+Train Epoch:12  |Loss: 0.470 | Ld: 0.000 | Acc: 0.809
+Eval Epoch: 12 | Loss: 0.382 | Acc: 0.852
+Train Epoch:13  |Loss: 0.446 | Ld: 0.000 | Acc: 0.822
+Eval Epoch: 13 | Loss: 0.471 | Acc: 0.803
+Train Epoch:14  |Loss: 0.446 | Ld: 0.000 | Acc: 0.806
+Eval Epoch: 14 | Loss: 0.368 | Acc: 0.862
+saving....

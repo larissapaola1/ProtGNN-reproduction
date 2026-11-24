@@ -57,7 +57,7 @@ class ModelParser():
 
 
 class MCTSParser(DataParser, ModelParser):
-    rollout: int = 10                         # the rollout number
+    rollout: int = 20                         # the rollout number
     high2low: bool = False                    # expand children with different node degree ranking method
     c_puct: float = 5                         # the exploration hyper-parameter
     min_atoms: int = 5                        # for the synthetic dataset, change the minimal atoms to 5.
@@ -82,17 +82,17 @@ class RewardParser():
 class TrainParser():
     def __init__(self):
         super().__init__()
-        self.learning_rate = 0.005
+        self.learning_rate = 0.005 #adam optimizer
         self.batch_size = 24
         self.weight_decay = 0.0
         self.max_epochs = 800
         self.save_epoch = 10
-        self.early_stopping = 80
+        self.early_stopping = 100 #changed from 80 change
         self.last_layer_optimizer_lr = 1e-4            # the learning rate of the last layer
         self.joint_optimizer_lrs = {'features': 1e-4,
                        'add_on_layers': 3e-3,
                        'prototype_vectors': 3e-3}      # the learning rates of the joint training optimizer
-        self.warm_epochs = 10                          # the number of warm epochs
+        self.warm_epochs = 10                          
         self.proj_epochs = 100                         # the epoch to start mcts
         self.sampling_epochs = 100                     # the epoch to start sampling edges
         self.nearest_graphs = 10                       # number of graphs in projection

@@ -1,0 +1,4 @@
+seed,test_acc,test_loss,runtime_seconds,log_file
+1,0.84,0.693,2459.9298269170104,/Users/paolalarissahernandezllamas/Documents/Documentos - Paola’s MacBook Pro/Fall 26/Generative AI/Working/ProtGNN/Results/Graph-SST2/ProtGNN/GAT/seed_1/train.log
+2,0.848,0.693,2290.1544727080036,/Users/paolalarissahernandezllamas/Documents/Documentos - Paola’s MacBook Pro/Fall 26/Generative AI/Working/ProtGNN/Results/Graph-SST2/ProtGNN/GAT/seed_2/train.log
+3,0.857,0.693,2049.055738000083,/Users/paolalarissahernandezllamas/Documents/Documentos - Paola’s MacBook Pro/Fall 26/Generative AI/Working/ProtGNN/Results/Graph-SST2/ProtGNN/GAT/seed_3/train.log

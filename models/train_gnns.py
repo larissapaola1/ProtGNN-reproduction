@@ -112,11 +112,21 @@ def train_GC(clst, sep):
     dataset = get_dataset(data_args.dataset_dir, data_args.dataset_name, task=data_args.task)
     input_dim = dataset.num_node_features
     output_dim = int(dataset.num_classes)
-    dataloader = get_dataloader(dataset, train_args.batch_size, data_split_ratio=data_args.data_split_ratio)
+    dataloader = get_dataloader(
+        dataset, 
+        train_args.batch_size, 
+        data_split_ratio=data_args.data_split_ratio, 
+        seed = data_args.seed)
 
     print('start training model==================')
     gnnNets = GnnNets(input_dim, output_dim, model_args)
-    ckpt_dir = f"./checkpoint/{data_args.dataset_name}/"
+    # before ckpt_dir = f"./checkpoint/{data_args.dataset_name}/"
+    #after
+    ckpt_dir = getattr(
+        train_args,
+        "save_dir",
+        os.path.join("./checkpoint", data_args.dataset_name),
+    )
     #checkpoint = torch.load(os.path.join(ckpt_dir, f'{model_args.model_name}_best.pth'))
     #gnnNets.update_state_dict(checkpoint['net'])
     gnnNets.to_device()
@@ -136,11 +146,16 @@ def train_GC(clst, sep):
     data_size = len(dataset)
     print(f'The total num of dataset is {data_size}')
 
-    # save path for model
-    if not os.path.isdir('checkpoint'):
-        os.mkdir('checkpoint')
-    if not os.path.isdir(os.path.join('checkpoint', data_args.dataset_name)):
-        os.mkdir(os.path.join('checkpoint', f"{data_args.dataset_name}"))
+
+    #save path for model
+    # before 
+    #if not os.path.isdir('checkpoint'):
+    #    os.mkdir('checkpoint')
+    #if not os.path.isdir(os.path.join('checkpoint', data_args.dataset_name)):
+    #    os.mkdir(os.path.join('checkpoint', f"{data_args.dataset_name}"))
+    # Ensure the selected checkpoint directory exists
+    # after
+    os.makedirs(ckpt_dir, exist_ok=True)
 
     early_stop_count = 0
     data_indices = dataloader['train'].dataset.indices
@@ -149,21 +164,25 @@ def train_GC(clst, sep):
         loss_list = []
         ld_loss_list = []
         # Prototype projection
-        if epoch >= train_args.proj_epochs and epoch % 10 == 0:
+        # before if epoch >= train_args.proj_epochs and epoch % 10 == 0: # to match paper config changed from 10 to 50
+        if model_args.enable_prot and epoch >= train_args.proj_epochs and epoch % 50 == 0: # after
             gnnNets.eval()
             for i in range(output_dim * model_args.num_prototypes_per_class):
                 count = 0
-                best_similarity = 0
+                best_similarity = float("-inf") # from 0 to...:
+                proj_prot=None
                 label = i//model_args.num_prototypes_per_class
                 for j in range(i*10, len(data_indices)):
                     data = dataset[data_indices[j]]
                     if data.y == label:
                         count += 1
                         coalition, similarity, prot = mcts(data, gnnNets, gnnNets.model.prototype_vectors[i])
-                        if similarity > best_similarity:
+                        if np.isfinite(similarity) and similarity > best_similarity: #change, fix. 
                             best_similarity = similarity
                             proj_prot = prot
                     if count >= 10:
+                        if proj_prot is None: # change
+                            raise RuntimeError(f"No valid projection found for prototype {i}") #change 
                         gnnNets.model.prototype_vectors.data[i] = proj_prot
                         print('Projection of prototype completed')
                         break
@@ -178,25 +197,29 @@ def train_GC(clst, sep):
             loss = criterion(logits, batch.y)
             #cluster loss
             prototypes_of_correct_class = torch.t(gnnNets.model.prototype_class_identity[:, batch.y].bool()).to(model_args.device)
-            cluster_cost = torch.mean(torch.min(min_distances[prototypes_of_correct_class].reshape(-1, model_args.num_prototypes_per_class), dim=1)[0])
 
-            #seperation loss
-            separation_cost = -torch.mean(torch.min(min_distances[~prototypes_of_correct_class].reshape(-1, (output_dim-1)*model_args.num_prototypes_per_class), dim=1)[0])
+            if model_args.enable_prot: #after
+                cluster_cost = torch.mean(torch.min(min_distances[prototypes_of_correct_class].reshape(-1, model_args.num_prototypes_per_class), dim=1)[0])
 
-            #sparsity loss
-            l1_mask = 1 - torch.t(gnnNets.model.prototype_class_identity).to(model_args.device)
-            l1 = (gnnNets.model.last_layer.weight * l1_mask).norm(p=1)
+                #separation loss
+                separation_cost = -torch.mean(torch.min(min_distances[~prototypes_of_correct_class].reshape(-1, (output_dim-1)*model_args.num_prototypes_per_class), dim=1)[0])
 
-            #diversity loss
-            ld = 0
-            for k in range(output_dim):
-                p = gnnNets.model.prototype_vectors[k*model_args.num_prototypes_per_class: (k+1)*model_args.num_prototypes_per_class]
-                p = F.normalize(p, p=2, dim=1)
-                matrix1 = torch.mm(p, torch.t(p)) - torch.eye(p.shape[0]).to(model_args.device) - 0.3
-                matrix2 = torch.zeros(matrix1.shape).to(model_args.device)
-                ld += torch.sum(torch.where(matrix1 > 0, matrix1, matrix2))
+                #sparsity loss
+                l1_mask = 1 - torch.t(gnnNets.model.prototype_class_identity).to(model_args.device)
+                l1 = (gnnNets.model.last_layer.weight * l1_mask).norm(p=1)
 
-            loss = loss + clst*cluster_cost + sep*separation_cost + 5e-4 * l1 + 0.00 * ld
+                #diversity loss
+                ld = 0
+                for k in range(output_dim):
+                    p = gnnNets.model.prototype_vectors[k*model_args.num_prototypes_per_class: (k+1)*model_args.num_prototypes_per_class]
+                    p = F.normalize(p, p=2, dim=1)
+                    matrix1 = torch.mm(p, torch.t(p)) - torch.eye(p.shape[0]).to(model_args.device) - 0.3
+                    matrix2 = torch.zeros(matrix1.shape).to(model_args.device)
+                    ld += torch.sum(torch.where(matrix1 > 0, matrix1, matrix2))
+
+                loss = loss + clst*cluster_cost + sep*separation_cost + 5e-4 * l1 + 0.01 * ld # CHANGE: 0.0 to 0.01 to match experimental settings
+            else:
+                ld = torch.tensor(0.0, device=model_args.device)
 
             # optimization
             optimizer.zero_grad()
@@ -245,7 +268,7 @@ def train_GC(clst, sep):
     test_state, _, _ = test_GC(dataloader['test'], gnnNets, criterion)
     print(f"Test: | Loss: {test_state['loss']:.3f} | Acc: {test_state['acc']:.3f}")
     append_record("loss: {:.3f}, acc: {:.3f}".format(test_state['loss'], test_state['acc']))
-
+    return {"test_acc": test_state["acc"], "test_loss": test_state["loss"]} #addition
 
 
 def evaluate_GC(eval_dataloader, gnnNets, criterion):
@@ -462,3 +485,5 @@ if __name__ == '__main__':
                         help='separation')
     args = parser.parse_args()
     train_GC(args.clst, args.sep)
+    
+

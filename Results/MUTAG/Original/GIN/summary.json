@@ -1,0 +1,38 @@
+{
+  "dataset": "MUTAG",
+  "variant": "Original",
+  "model": "GIN",
+  "num_seeds": 3,
+  "seeds": [
+    1,
+    2,
+    3
+  ],
+  "runs": [
+    {
+      "seed": 1,
+      "test_acc": 0.9,
+      "test_loss": 0.518,
+      "runtime_seconds": 10.768368416000158,
+      "log_file": "/Users/paolalarissahernandezllamas/Documents/Documentos - Paola\u2019s MacBook Pro/Fall 26/Generative AI/Working/ProtGNN/Results/MUTAG/Original/GIN/seed_1/train.log"
+    },
+    {
+      "seed": 2,
+      "test_acc": 0.75,
+      "test_loss": 0.871,
+      "runtime_seconds": 14.174492499965709,
+      "log_file": "/Users/paolalarissahernandezllamas/Documents/Documentos - Paola\u2019s MacBook Pro/Fall 26/Generative AI/Working/ProtGNN/Results/MUTAG/Original/GIN/seed_2/train.log"
+    },
+    {
+      "seed": 3,
+      "test_acc": 0.95,
+      "test_loss": 0.152,
+      "runtime_seconds": 13.553451207990292,
+      "log_file": "/Users/paolalarissahernandezllamas/Documents/Documentos - Paola\u2019s MacBook Pro/Fall 26/Generative AI/Working/ProtGNN/Results/MUTAG/Original/GIN/seed_3/train.log"
+    }
+  ],
+  "mean_acc": 0.8666666666666666,
+  "std_acc": 0.10408329997330662,
+  "mean_runtime_seconds": 12.83210404131872,
+  "std_runtime_seconds": 1.8140222214712174
+}

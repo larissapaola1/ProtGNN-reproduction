@@ -1,0 +1,234 @@
+=== Dataset=bbbp | Variant=ProtGNN | Model=GCN | Seed=3 ===
+0.1
+0.05
+start loading data====================
+start training model==================
+graphs 2039, avg_nodes24.0647, avg_edge_index_25.9544
+The total num of dataset is 2039
+Train Epoch:0  |Loss: 0.745 | Ld: 13.224 | Acc: 0.756
+Eval Epoch: 0 | Loss: 0.595 | Acc: 0.778
+saving....
+Train Epoch:1  |Loss: -0.243 | Ld: 5.128 | Acc: 0.766
+Eval Epoch: 1 | Loss: 0.597 | Acc: 0.778
+Train Epoch:2  |Loss: -1.084 | Ld: 2.593 | Acc: 0.766
+Eval Epoch: 2 | Loss: 0.624 | Acc: 0.778
+Train Epoch:3  |Loss: -2.686 | Ld: 1.712 | Acc: 0.766
+Eval Epoch: 3 | Loss: 0.680 | Acc: 0.778
+Train Epoch:4  |Loss: -5.418 | Ld: 1.520 | Acc: 0.766
+Eval Epoch: 4 | Loss: 0.691 | Acc: 0.778
+Train Epoch:5  |Loss: -9.143 | Ld: 1.659 | Acc: 0.766
+Eval Epoch: 5 | Loss: 0.686 | Acc: 0.778
+Train Epoch:6  |Loss: -15.089 | Ld: 2.031 | Acc: 0.766
+Eval Epoch: 6 | Loss: 0.680 | Acc: 0.778
+Train Epoch:7  |Loss: -21.525 | Ld: 2.390 | Acc: 0.766
+Eval Epoch: 7 | Loss: 0.676 | Acc: 0.778
+Train Epoch:8  |Loss: -30.977 | Ld: 3.077 | Acc: 0.766
+Eval Epoch: 8 | Loss: 0.681 | Acc: 0.778
+Train Epoch:9  |Loss: -39.287 | Ld: 3.188 | Acc: 0.766
+Eval Epoch: 9 | Loss: 0.691 | Acc: 0.778
+Train Epoch:10  |Loss: -52.505 | Ld: 3.401 | Acc: 0.766
+Eval Epoch: 10 | Loss: 0.682 | Acc: 0.778
+saving....
+Train Epoch:11  |Loss: -60.464 | Ld: 3.817 | Acc: 0.766
+Eval Epoch: 11 | Loss: 0.683 | Acc: 0.778
+Train Epoch:12  |Loss: -80.840 | Ld: 4.330 | Acc: 0.766
+Eval Epoch: 12 | Loss: 0.686 | Acc: 0.778
+Train Epoch:13  |Loss: -93.850 | Ld: 4.500 | Acc: 0.766
+Eval Epoch: 13 | Loss: 0.686 | Acc: 0.778
+Train Epoch:14  |Loss: -105.023 | Ld: 4.949 | Acc: 0.766
+Eval Epoch: 14 | Loss: 0.688 | Acc: 0.778
+Train Epoch:15  |Loss: -115.623 | Ld: 5.359 | Acc: 0.766
+Eval Epoch: 15 | Loss: 0.695 | Acc: 0.778
+Train Epoch:16  |Loss: -140.381 | Ld: 5.529 | Acc: 0.766
+Eval Epoch: 16 | Loss: 0.682 | Acc: 0.778
+Train Epoch:17  |Loss: -157.275 | Ld: 5.648 | Acc: 0.766
+Eval Epoch: 17 | Loss: 0.689 | Acc: 0.778
+Train Epoch:18  |Loss: -175.513 | Ld: 5.755 | Acc: 0.766
+Eval Epoch: 18 | Loss: 0.684 | Acc: 0.778
+Train Epoch:19  |Loss: -192.753 | Ld: 5.881 | Acc: 0.766
+Eval Epoch: 19 | Loss: 0.691 | Acc: 0.778
+Train Epoch:20  |Loss: -213.353 | Ld: 6.020 | Acc: 0.766
+Eval Epoch: 20 | Loss: 0.696 | Acc: 0.778
+saving....
+Train Epoch:21  |Loss: -237.765 | Ld: 6.077 | Acc: 0.766
+Eval Epoch: 21 | Loss: 0.691 | Acc: 0.778
+Train Epoch:22  |Loss: -267.345 | Ld: 6.140 | Acc: 0.766
+Eval Epoch: 22 | Loss: 0.676 | Acc: 0.778
+Train Epoch:23  |Loss: -292.593 | Ld: 6.188 | Acc: 0.766
+Eval Epoch: 23 | Loss: 0.694 | Acc: 0.778
+Train Epoch:24  |Loss: -324.074 | Ld: 6.239 | Acc: 0.766
+Eval Epoch: 24 | Loss: 0.688 | Acc: 0.778
+Train Epoch:25  |Loss: -346.049 | Ld: 6.304 | Acc: 0.766
+Eval Epoch: 25 | Loss: 0.689 | Acc: 0.778
+Train Epoch:26  |Loss: -374.613 | Ld: 6.353 | Acc: 0.766
+Eval Epoch: 26 | Loss: 0.688 | Acc: 0.778
+Train Epoch:27  |Loss: -404.211 | Ld: 6.393 | Acc: 0.766
+Eval Epoch: 27 | Loss: 0.687 | Acc: 0.778
+Train Epoch:28  |Loss: -439.939 | Ld: 6.416 | Acc: 0.766
+Eval Epoch: 28 | Loss: 0.677 | Acc: 0.778
+Train Epoch:29  |Loss: -465.208 | Ld: 6.439 | Acc: 0.766
+Eval Epoch: 29 | Loss: 0.688 | Acc: 0.778
+Train Epoch:30  |Loss: -477.991 | Ld: 6.467 | Acc: 0.766
+Eval Epoch: 30 | Loss: 0.692 | Acc: 0.778
+saving....
+Train Epoch:31  |Loss: -509.636 | Ld: 6.502 | Acc: 0.766
+Eval Epoch: 31 | Loss: 0.688 | Acc: 0.778
+Train Epoch:32  |Loss: -551.110 | Ld: 6.569 | Acc: 0.766
+Eval Epoch: 32 | Loss: 0.686 | Acc: 0.778
+Train Epoch:33  |Loss: -577.315 | Ld: 6.580 | Acc: 0.766
+Eval Epoch: 33 | Loss: 0.685 | Acc: 0.778
+Train Epoch:34  |Loss: -635.250 | Ld: 6.601 | Acc: 0.766
+Eval Epoch: 34 | Loss: 0.684 | Acc: 0.778
+Train Epoch:35  |Loss: -638.350 | Ld: 6.674 | Acc: 0.766
+Eval Epoch: 35 | Loss: 0.684 | Acc: 0.778
+Train Epoch:36  |Loss: -688.901 | Ld: 6.660 | Acc: 0.766
+Eval Epoch: 36 | Loss: 0.689 | Acc: 0.778
+Train Epoch:37  |Loss: -751.573 | Ld: 6.661 | Acc: 0.766
+Eval Epoch: 37 | Loss: 0.685 | Acc: 0.778
+Train Epoch:38  |Loss: -774.825 | Ld: 6.682 | Acc: 0.766
+Eval Epoch: 38 | Loss: 0.690 | Acc: 0.778
+Train Epoch:39  |Loss: -795.894 | Ld: 6.696 | Acc: 0.766
+Eval Epoch: 39 | Loss: 0.685 | Acc: 0.778
+Train Epoch:40  |Loss: -856.061 | Ld: 6.747 | Acc: 0.766
+Eval Epoch: 40 | Loss: 0.690 | Acc: 0.778
+saving....
+Train Epoch:41  |Loss: -895.413 | Ld: 6.792 | Acc: 0.766
+Eval Epoch: 41 | Loss: 0.682 | Acc: 0.778
+Train Epoch:42  |Loss: -867.933 | Ld: 6.786 | Acc: 0.766
+Eval Epoch: 42 | Loss: 0.686 | Acc: 0.778
+Train Epoch:43  |Loss: -977.171 | Ld: 6.889 | Acc: 0.766
+Eval Epoch: 43 | Loss: 0.691 | Acc: 0.778
+Train Epoch:44  |Loss: -974.645 | Ld: 6.934 | Acc: 0.766
+Eval Epoch: 44 | Loss: 0.687 | Acc: 0.778
+Train Epoch:45  |Loss: -1051.165 | Ld: 6.878 | Acc: 0.766
+Eval Epoch: 45 | Loss: 0.691 | Acc: 0.778
+Train Epoch:46  |Loss: -1080.976 | Ld: 6.836 | Acc: 0.766
+Eval Epoch: 46 | Loss: 0.687 | Acc: 0.778
+Train Epoch:47  |Loss: -1145.406 | Ld: 6.800 | Acc: 0.766
+Eval Epoch: 47 | Loss: 0.690 | Acc: 0.778
+Train Epoch:48  |Loss: -1154.488 | Ld: 6.811 | Acc: 0.766
+Eval Epoch: 48 | Loss: 0.685 | Acc: 0.778
+Train Epoch:49  |Loss: -1183.849 | Ld: 6.825 | Acc: 0.766
+Eval Epoch: 49 | Loss: 0.688 | Acc: 0.778
+Train Epoch:50  |Loss: -1345.102 | Ld: 6.846 | Acc: 0.766
+Eval Epoch: 50 | Loss: 0.683 | Acc: 0.778
+saving....
+Train Epoch:51  |Loss: -1332.398 | Ld: 6.862 | Acc: 0.766
+Eval Epoch: 51 | Loss: 0.690 | Acc: 0.778
+Train Epoch:52  |Loss: -1375.156 | Ld: 6.879 | Acc: 0.766
+Eval Epoch: 52 | Loss: 0.688 | Acc: 0.778
+Train Epoch:53  |Loss: -1402.861 | Ld: 6.892 | Acc: 0.766
+Eval Epoch: 53 | Loss: 0.686 | Acc: 0.778
+Train Epoch:54  |Loss: -1458.559 | Ld: 6.893 | Acc: 0.766
+Eval Epoch: 54 | Loss: 0.692 | Acc: 0.778
+Train Epoch:55  |Loss: -1428.679 | Ld: 6.902 | Acc: 0.766
+Eval Epoch: 55 | Loss: 0.694 | Acc: 0.778
+Train Epoch:56  |Loss: -1545.750 | Ld: 6.911 | Acc: 0.766
+Eval Epoch: 56 | Loss: 0.692 | Acc: 0.778
+Train Epoch:57  |Loss: -1646.174 | Ld: 6.916 | Acc: 0.766
+Eval Epoch: 57 | Loss: 0.689 | Acc: 0.778
+Train Epoch:58  |Loss: -1654.491 | Ld: 6.924 | Acc: 0.766
+Eval Epoch: 58 | Loss: 0.689 | Acc: 0.778
+Train Epoch:59  |Loss: -1679.200 | Ld: 6.932 | Acc: 0.766
+Eval Epoch: 59 | Loss: 0.684 | Acc: 0.778
+Train Epoch:60  |Loss: -1754.614 | Ld: 6.939 | Acc: 0.766
+Eval Epoch: 60 | Loss: 0.676 | Acc: 0.778
+saving....
+Train Epoch:61  |Loss: -1888.163 | Ld: 6.948 | Acc: 0.766
+Eval Epoch: 61 | Loss: 0.693 | Acc: 0.778
+Train Epoch:62  |Loss: -1762.766 | Ld: 6.956 | Acc: 0.766
+Eval Epoch: 62 | Loss: 0.693 | Acc: 0.778
+Train Epoch:63  |Loss: -1976.787 | Ld: 6.956 | Acc: 0.766
+Eval Epoch: 63 | Loss: 0.691 | Acc: 0.778
+Train Epoch:64  |Loss: -2030.526 | Ld: 6.963 | Acc: 0.766
+Eval Epoch: 64 | Loss: 0.688 | Acc: 0.778
+Train Epoch:65  |Loss: -2097.776 | Ld: 6.972 | Acc: 0.766
+Eval Epoch: 65 | Loss: 0.691 | Acc: 0.778
+Train Epoch:66  |Loss: -2032.388 | Ld: 6.984 | Acc: 0.766
+Eval Epoch: 66 | Loss: 0.689 | Acc: 0.778
+Train Epoch:67  |Loss: -2142.022 | Ld: 6.994 | Acc: 0.766
+Eval Epoch: 67 | Loss: 0.691 | Acc: 0.778
+Train Epoch:68  |Loss: -2180.860 | Ld: 7.000 | Acc: 0.766
+Eval Epoch: 68 | Loss: 0.690 | Acc: 0.778
+Train Epoch:69  |Loss: -2402.799 | Ld: 7.010 | Acc: 0.766
+Eval Epoch: 69 | Loss: 0.689 | Acc: 0.778
+Train Epoch:70  |Loss: -2500.210 | Ld: 7.020 | Acc: 0.766
+Eval Epoch: 70 | Loss: 0.693 | Acc: 0.778
+saving....
+Train Epoch:71  |Loss: -2409.837 | Ld: 7.025 | Acc: 0.766
+Eval Epoch: 71 | Loss: 0.690 | Acc: 0.778
+Train Epoch:72  |Loss: -2633.127 | Ld: 7.031 | Acc: 0.766
+Eval Epoch: 72 | Loss: 0.690 | Acc: 0.778
+Train Epoch:73  |Loss: -2548.771 | Ld: 7.040 | Acc: 0.766
+Eval Epoch: 73 | Loss: 0.690 | Acc: 0.778
+Train Epoch:74  |Loss: -2546.852 | Ld: 7.047 | Acc: 0.766
+Eval Epoch: 74 | Loss: 0.691 | Acc: 0.778
+Train Epoch:75  |Loss: -2667.686 | Ld: 7.055 | Acc: 0.766
+Eval Epoch: 75 | Loss: 0.692 | Acc: 0.778
+Train Epoch:76  |Loss: -2723.895 | Ld: 7.061 | Acc: 0.766
+Eval Epoch: 76 | Loss: 0.691 | Acc: 0.778
+Train Epoch:77  |Loss: -2792.954 | Ld: 7.066 | Acc: 0.766
+Eval Epoch: 77 | Loss: 0.692 | Acc: 0.778
+Train Epoch:78  |Loss: -2896.918 | Ld: 7.080 | Acc: 0.766
+Eval Epoch: 78 | Loss: 0.688 | Acc: 0.778
+Train Epoch:79  |Loss: -2989.677 | Ld: 7.090 | Acc: 0.766
+Eval Epoch: 79 | Loss: 0.691 | Acc: 0.778
+Train Epoch:80  |Loss: -3057.006 | Ld: 7.094 | Acc: 0.766
+Eval Epoch: 80 | Loss: 0.691 | Acc: 0.778
+saving....
+Train Epoch:81  |Loss: -3171.531 | Ld: 7.097 | Acc: 0.766
+Eval Epoch: 81 | Loss: 0.691 | Acc: 0.778
+Train Epoch:82  |Loss: -3183.484 | Ld: 7.104 | Acc: 0.766
+Eval Epoch: 82 | Loss: 0.692 | Acc: 0.778
+Train Epoch:83  |Loss: -3233.959 | Ld: 7.112 | Acc: 0.766
+Eval Epoch: 83 | Loss: 0.691 | Acc: 0.778
+Train Epoch:84  |Loss: -3369.270 | Ld: 7.123 | Acc: 0.766
+Eval Epoch: 84 | Loss: 0.690 | Acc: 0.778
+Train Epoch:85  |Loss: -3419.957 | Ld: 7.120 | Acc: 0.766
+Eval Epoch: 85 | Loss: 0.691 | Acc: 0.778
+Train Epoch:86  |Loss: -3527.537 | Ld: 7.147 | Acc: 0.766
+Eval Epoch: 86 | Loss: 0.691 | Acc: 0.778
+Train Epoch:87  |Loss: -3446.605 | Ld: 7.132 | Acc: 0.766
+Eval Epoch: 87 | Loss: 0.691 | Acc: 0.778
+Train Epoch:88  |Loss: -3395.680 | Ld: 7.133 | Acc: 0.766
+Eval Epoch: 88 | Loss: 0.691 | Acc: 0.778
+Train Epoch:89  |Loss: -3643.279 | Ld: 7.138 | Acc: 0.766
+Eval Epoch: 89 | Loss: 0.691 | Acc: 0.778
+Train Epoch:90  |Loss: -3792.378 | Ld: 7.141 | Acc: 0.766
+Eval Epoch: 90 | Loss: 0.692 | Acc: 0.778
+saving....
+Train Epoch:91  |Loss: -3657.362 | Ld: 7.148 | Acc: 0.766
+Eval Epoch: 91 | Loss: 0.691 | Acc: 0.778
+Train Epoch:92  |Loss: -3983.955 | Ld: 7.175 | Acc: 0.766
+Eval Epoch: 92 | Loss: 0.690 | Acc: 0.778
+Train Epoch:93  |Loss: -4284.036 | Ld: 7.327 | Acc: 0.766
+Eval Epoch: 93 | Loss: 0.691 | Acc: 0.778
+Train Epoch:94  |Loss: -4194.551 | Ld: 7.443 | Acc: 0.766
+Eval Epoch: 94 | Loss: 0.691 | Acc: 0.778
+Train Epoch:95  |Loss: -4329.309 | Ld: 7.386 | Acc: 0.766
+Eval Epoch: 95 | Loss: 0.691 | Acc: 0.778
+Train Epoch:96  |Loss: -4401.006 | Ld: 7.688 | Acc: 0.766
+Eval Epoch: 96 | Loss: 0.691 | Acc: 0.778
+Train Epoch:97  |Loss: -4399.520 | Ld: 7.808 | Acc: 0.766
+Eval Epoch: 97 | Loss: 0.690 | Acc: 0.778
+Train Epoch:98  |Loss: -3929.621 | Ld: 7.801 | Acc: 0.766
+Eval Epoch: 98 | Loss: 0.689 | Acc: 0.778
+Train Epoch:99  |Loss: -4104.960 | Ld: 7.647 | Acc: 0.766
+Eval Epoch: 99 | Loss: 0.690 | Acc: 0.778
+Projection of prototype completed
+Projection of prototype completed
+Projection of prototype completed
+Projection of prototype completed
+Projection of prototype completed
+Projection of prototype completed
+Projection of prototype completed
+Projection of prototype completed
+Projection of prototype completed
+Projection of prototype completed
+Train Epoch:100  |Loss: -1348.044 | Ld: 15.495 | Acc: 0.766
+Eval Epoch: 100 | Loss: 0.675 | Acc: 0.778
+saving....
+Train Epoch:101  |Loss: -1688.440 | Ld: 15.428 | Acc: 0.766
+Eval Epoch: 101 | Loss: 0.693 | Acc: 0.778
+The best validation accuracy is 0.7783251231527094.
+Test: | Loss: 0.607 | Acc: 0.746
