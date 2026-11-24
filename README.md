@@ -1,5 +1,4 @@
-> **Reproduction copy.** This is a reproduction of ProtGNN for [course / challenge name].
-> The original README follows unchanged. My changes and findings are in REPRODUCTION_LOG.md.
+> **Reproduction copy.** This is a reproduction of ProtGNN for Graph Deep Learning.
 > Original repo: https://github.com/zaixizhang/ProtGNN
 # ProtGNN experimental settings and reproduction changes
 
@@ -42,7 +41,7 @@ Paper: [ProtGNN: Towards Self-Explaining Graph Neural Networks](https://arxiv.or
 
 ## 2. Changes made in this reproduction: how we did it
 
-1. **Matched the diversity settings.** In `models/train_gnns.py:208–217`, I changed the diversity-loss multiplier from `0.00` to `0.01`; the threshold `0.3` is currently hard-coded in the same block.
+1. **Matched the diversity settings.** In `models/train_gnns.py:208–217`, We changed the diversity-loss multiplier from `0.00` to `0.01`; the threshold `0.3` is currently hard-coded in the same block.
 
 2. **Matched the projection schedule.** `Configures.py:96` sets the start epoch to 100, and `models/train_gnns.py:166–168` attempts projection every 50 epochs after that.
 
@@ -70,7 +69,7 @@ Paper: [ProtGNN: Towards Self-Explaining Graph Neural Networks](https://arxiv.or
 
 14. **Applied environment compatibility fixes.** The CPU/device adjustment, removal of an unused PyG `topk` import, and creation of the missing log folder are recorded in `REPRODUCTION_LOG.md`.
 
-15. **Made prototype projection handle missing or invalid MCTS scores.** In `models/train_gnns.py:172`, I initialize the best score to negative infinity and `proj_prot` to `None`, so a finite candidate with a zero or negative score can still be selected. At line 180, I ignore non-finite scores; at lines 184–185, I raise a clear error if no valid candidate was found before assigning the projected prototype. This prevents the previous `UnboundLocalError` and makes invalid MCTS output easier to diagnose.
+15. **Made prototype projection handle missing or invalid MCTS scores.** In `models/train_gnns.py:172`, we initialize the best score to negative infinity and `proj_prot` to `None`, so a finite candidate with a zero or negative score can still be selected. At line 180, we ignore non-finite scores; at lines 184–185, we raise a clear error if no valid candidate was found before assigning the projected prototype. This prevents the previous `UnboundLocalError` and makes invalid MCTS output easier to diagnose.
 
 ## 3. Reproduction limits and deviations
 
