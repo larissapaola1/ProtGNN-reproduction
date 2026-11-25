@@ -195,10 +195,11 @@ def train_GC(clst, sep):
         for batch in dataloader['train']:
             logits, probs, _, _, min_distances = gnnNets(batch)
             loss = criterion(logits, batch.y)
-            #cluster loss
-            prototypes_of_correct_class = torch.t(gnnNets.model.prototype_class_identity[:, batch.y].bool()).to(model_args.device)
-
+            
             if model_args.enable_prot: #after
+                #cluster loss
+                prototypes_of_correct_class = torch.t(gnnNets.model.prototype_class_identity[:, batch.y].bool()).to(model_args.device)
+                
                 cluster_cost = torch.mean(torch.min(min_distances[prototypes_of_correct_class].reshape(-1, model_args.num_prototypes_per_class), dim=1)[0])
 
                 #separation loss
@@ -376,29 +377,31 @@ def train_NC():
         gnnNets_NC.train()
         logits, prob, _, min_distances = gnnNets_NC(data)
         loss = criterion(logits[data.train_mask], data.y[data.train_mask])
-        # cluster loss
-        prototypes_of_correct_class = torch.t(gnnNets_NC.model.prototype_class_identity[:, data.y]).to(model_args.device)
-        cluster_cost = torch.mean(torch.min(min_distances * prototypes_of_correct_class, dim=1)[0])
+        
+        if model_args.enable_prot: # prototype-loss calculations  CHANGE .. to fix BA_shapes  
+            # cluster loss
+            prototypes_of_correct_class = torch.t(gnnNets_NC.model.prototype_class_identity[:, data.y]).to(model_args.device)
+            cluster_cost = torch.mean(torch.min(min_distances * prototypes_of_correct_class, dim=1)[0])
 
-        # seperation loss
-        prototypes_of_wrong_class = 1 - prototypes_of_correct_class
-        separation_cost = -torch.mean(torch.min(min_distances * prototypes_of_wrong_class, dim=1)[0])
+            # seperation loss
+            prototypes_of_wrong_class = 1 - prototypes_of_correct_class
+            separation_cost = -torch.mean(torch.min(min_distances * prototypes_of_wrong_class, dim=1)[0])
 
-        # sparsity loss
-        l1_mask = 1 - torch.t(gnnNets_NC.model.prototype_class_identity).to(model_args.device)
-        l1 = (gnnNets_NC.model.last_layer.weight * l1_mask).norm(p=1)
+            # sparsity loss
+            l1_mask = 1 - torch.t(gnnNets_NC.model.prototype_class_identity).to(model_args.device)
+            l1 = (gnnNets_NC.model.last_layer.weight * l1_mask).norm(p=1)
 
-        # diversity loss
-        ld = 0
-        for k in range(output_dim):
-            p = gnnNets_NC.model.prototype_vectors[
-                k * model_args.num_prototypes_per_class: (k + 1) * model_args.num_prototypes_per_class]
-            p = F.normalize(p, p=2, dim=1)
-            matrix1 = torch.mm(p, torch.t(p)) - torch.eye(p.shape[0]).to(model_args.device) - 0.3
-            matrix2 = torch.zeros(matrix1.shape).to(model_args.device)
-            ld += torch.sum(torch.where(matrix1 > 0, matrix1, matrix2))
+            # diversity loss
+            ld = 0
+            for k in range(output_dim):
+                p = gnnNets_NC.model.prototype_vectors[
+                    k * model_args.num_prototypes_per_class: (k + 1) * model_args.num_prototypes_per_class]
+                p = F.normalize(p, p=2, dim=1)
+                matrix1 = torch.mm(p, torch.t(p)) - torch.eye(p.shape[0]).to(model_args.device) - 0.3
+                matrix2 = torch.zeros(matrix1.shape).to(model_args.device)
+                ld += torch.sum(torch.where(matrix1 > 0, matrix1, matrix2))
 
-        loss = loss + 0.1 * cluster_cost + 0.1 * separation_cost + 0.001 * ld
+            loss = loss + 0.1 * cluster_cost + 0.1 * separation_cost + 0.001 * ld
 
         optimizer.zero_grad()
         loss.backward()

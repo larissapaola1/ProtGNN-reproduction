@@ -1,0 +1,38 @@
+{
+  "dataset": "BA_shapes",
+  "variant": "ProtGNN",
+  "model": "GCN",
+  "num_seeds": 3,
+  "seeds": [
+    1,
+    2,
+    3
+  ],
+  "runs": [
+    {
+      "seed": 1,
+      "test_acc": 0.8,
+      "test_loss": 0.822,
+      "runtime_seconds": 4.366359708015807,
+      "log_file": "/Users/paolalarissahernandezllamas/Documents/Documentos - Paola\u2019s MacBook Pro/Fall 26/Generative AI/Working/ProtGNN/Results/BA_shapes/ProtGNN/GCN/seed_1/train.log"
+    },
+    {
+      "seed": 2,
+      "test_acc": 0.371,
+      "test_loss": 1.3813,
+      "runtime_seconds": 1.920843750005588,
+      "log_file": "/Users/paolalarissahernandezllamas/Documents/Documentos - Paola\u2019s MacBook Pro/Fall 26/Generative AI/Working/ProtGNN/Results/BA_shapes/ProtGNN/GCN/seed_2/train.log"
+    },
+    {
+      "seed": 3,
+      "test_acc": 0.286,
+      "test_loss": 1.3853,
+      "runtime_seconds": 1.926532750017941,
+      "log_file": "/Users/paolalarissahernandezllamas/Documents/Documentos - Paola\u2019s MacBook Pro/Fall 26/Generative AI/Working/ProtGNN/Results/BA_shapes/ProtGNN/GCN/seed_3/train.log"
+    }
+  ],
+  "mean_acc": 0.4856666666666667,
+  "std_acc": 0.27551829945274664,
+  "mean_runtime_seconds": 2.737912069346445,
+  "std_runtime_seconds": 1.4102798924667932
+}

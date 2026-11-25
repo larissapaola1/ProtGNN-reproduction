@@ -41,35 +41,73 @@ Paper: [ProtGNN: Towards Self-Explaining Graph Neural Networks](https://arxiv.or
 
 ## 2. Changes made in this reproduction: how we did it
 
-1. **Matched the diversity settings.** In `models/train_gnns.py:208–217`, We changed the diversity-loss multiplier from `0.00` to `0.01`; the threshold `0.3` is currently hard-coded in the same block.
+1. **Diversity-loss weight and threshold** (`models/train_gnns.py:208–217`)
+   - **BEFORE:** The diversity-loss multiplier was `0.00`.
+   - **FIX:** Changed it to `0.01` to match the paper; the threshold `s_max = 0.3` is hard-coded in the same block.
 
-2. **Matched the projection schedule.** `Configures.py:96` sets the start epoch to 100, and `models/train_gnns.py:166–168` attempts projection every 50 epochs after that.
+2. **Prototype projection schedule** (`Configures.py:96`; `models/train_gnns.py:166–168`)
+   - **BEFORE:** Projection used the old schedule.
+   - **FIX:** Start at epoch 100 and attempt projection every 50 epochs afterward.
 
-3. **Stopped Original runs from projecting prototypes.** The condition at `models/train_gnns.py:166–168` also checks `model_args.enable_prot`, so the Original baseline skips this ProtGNN step.
+3. **Original baseline projection** (`models/train_gnns.py:166–168`)
+   - **BEFORE:** Original runs could enter ProtGNN’s prototype-projection block.
+   - **FIX:** Require `model_args.enable_prot`, so Original skips prototype projection.
 
-4. **Matched the MCTS iteration count.** `Configures.py:59–65` sets 20 rollouts, `c_puct=5`, `expand_atoms=10`, and `min_atoms=5`; `my_mcts.py:108–109` uses the rollout count as the loop iteration count.
+4. **MCTS projection settings** (`Configures.py:59–65`; `my_mcts.py:108–109`)
+   - **BEFORE:** The code used 10 rollouts.
+   - **FIX:** Set 20 iterations, `c_puct=5` (the paper’s MCTS `λ`), up to 10 child expansions, and `N_min=5`; the rollout count controls the MCTS loop.
 
-5. **Made the split follow the recorded seed.** `Results/run_experiments.py:78` selects each seed, and `models/train_gnns.py:115–119` passes it into `get_dataloader`, instead of using the loader’s default split seed of 5 for every run.
+5. **Seeded graph-classification splits** (`Results/run_experiments.py:78`; `models/train_gnns.py:115–119`)
+   - **BEFORE:** The loader used its default split seed of 5 for every run.
+   - **FIX:** Pass the selected run seed to `get_dataloader`, so each recorded seed determines its split.
 
-6. **Saved each run’s checkpoints separately.** `Results/run_experiments.py:81` sets a per-seed `save_dir`; `models/train_gnns.py:125–129, 150–158` uses and creates it, with the dataset checkpoint folder as a fallback for standalone runs.
+6. **Per-run checkpoints** (`Results/run_experiments.py:81`; `models/train_gnns.py:125–129, 150–158`)
+   - **BEFORE:** Runs for the same dataset could overwrite each other’s checkpoints.
+   - **FIX:** Set and create a separate checkpoint folder for each run, with the dataset folder as a fallback for standalone training.
 
-7. **Returned test metrics to the runner.** `models/train_gnns.py:260–268` returns test accuracy and loss, allowing `Results/run_experiments.py` to put accuracy in its summaries.
+7. **Graph-classification test metrics** (`models/train_gnns.py:260–268`)
+   - **BEFORE:** `train_GC` printed test results but returned no metrics to the runner.
+   - **FIX:** Return test accuracy and loss so `run_experiments.py` can store them in summaries.
 
-8. **Set early-stopping patience to 100.** `Configures.py:90` changes the code default from 80 to 100 to give ProtGNN a chance to reach its first projection at epoch 100. This patience is a reproduction choice because the paper does not state a value.
+8. **Early-stopping patience** (`Configures.py:90`)
+   - **BEFORE:** Patience was 80 epochs.
+   - **FIX:** Set it to 100 to give training a chance to reach the first projection at epoch 100. The paper does not specify patience, so this is a reproduction choice.
 
-9. **Set the experiment runner’s maximum to 500 epochs.** `Results/run_experiments.py:56–59` sets `train_args.max_epochs = 500`; early stopping may end a run sooner.
+9. **Maximum training epochs** (`Results/run_experiments.py:56–59`)
+   - **BEFORE:** The runner could use a different epoch limit.
+   - **FIX:** Set `train_args.max_epochs = 500`, matching the paper’s maximum; early stopping can still end a run sooner.
 
-10. **Configured the model variants.** `Results/run_experiments.py:30–53` sets `enable_prot=False` for Original and `enable_prot=True` for ProtGNN; it sets `warm_epochs=200` for ProtGNN+ to match the reported warm-up value.
+10. **Variant configuration** (`Results/run_experiments.py:30–53`)
+   - **BEFORE:** The runner did not consistently select the intended Original and ProtGNN settings.
+   - **FIX:** Set `enable_prot=False` for Original and `enable_prot=True` for ProtGNN; set ProtGNN+ warm-up to 200 epochs. ProtGNN+ sampling itself remains unimplemented, as described below.
 
-11. **Recorded elapsed runtime.** `Results/run_experiments.py:82–90, 104–108` times the full `train_GC` call and stores seconds per seed; lines 112–130 save the mean and per-run values.
+11. **Per-run training runtime** (`Results/run_experiments.py:82–90, 104–108, 112–130`)
+   - **BEFORE:** Elapsed runtime was not recorded in each run’s results.
+   - **FIX:** Time the full `train_GC` call and save per-seed runtime and its mean.
 
-12. **Added an efficiency-results table.** `Results/collect_results.py:29–48, 63–71, 88–119, 141–158, 188–214` reads stored runtimes, preserves them in summaries, and prints a runtime table below the accuracy table. Older runs without timing data show “no timing data.”
+12. **Efficiency-results table** (`Results/collect_results.py:29–48, 63–71, 88–119, 141–158, 188–214`)
+   - **BEFORE:** The collector printed only accuracy results.
+   - **FIX:** Read stored runtimes and print a runtime table below the accuracy table; older runs without timing data show “no timing data.”
 
-13. **Added the local t-SNE dependency.** `Results/tsne.py:6, 126` imports and uses scikit-learn; it was installed with `pip install scikit-learn`. Add it to `requirements.txt` to make the setup repeatable on another machine.
+13. **t-SNE dependency** (`Results/tsne.py:6, 126`)
+   - **BEFORE:** Running t-SNE failed if scikit-learn was not installed.
+   - **FIX:** Install it with `pip install scikit-learn`. It still needs to be added to `requirements.txt` for repeatable setup on another machine.
 
-14. **Applied environment compatibility fixes.** The CPU/device adjustment, removal of an unused PyG `topk` import, and creation of the missing log folder are recorded in `REPRODUCTION_LOG.md`.
+14. **Environment compatibility** (details in `REPRODUCTION_LOG.md`)
+   - **BEFORE:** The released code hit compatibility/device issues with the local PyTorch/PyG versions and CPU setup.
+   - **FIX:** Use the CPU/device adjustments, remove the unused PyG `topk` import, and create the missing log folder, as recorded in the reproduction log.
 
-15. **Made prototype projection handle missing or invalid MCTS scores.** In `models/train_gnns.py:172`, we initialize the best score to negative infinity and `proj_prot` to `None`, so a finite candidate with a zero or negative score can still be selected. At line 180, we ignore non-finite scores; at lines 184–185, we raise a clear error if no valid candidate was found before assigning the projected prototype. This prevents the previous `UnboundLocalError` and makes invalid MCTS output easier to diagnose.
+15. **MCTS projection candidate handling** (`models/train_gnns.py:172, 180, 184–185`)
+   - **BEFORE:** The best score began at zero and `proj_prot` could remain unset, causing an `UnboundLocalError` when no score beat zero.
+   - **FIX:** Initialize the score to negative infinity and `proj_prot` to `None`, ignore non-finite scores, and raise a clear error if no valid candidate exists before assignment.
+
+16. **Original BA-Shape loss** (`models/train_gnns.py:381–402`)
+   - **BEFORE:** Original BA-Shape training accessed `prototype_class_identity` and calculated prototype losses even though the Original GAT/GIN node models have no prototype layer, causing an `AttributeError` (or a distance-related `TypeError`).
+   - **FIX:** Put both the prototype-class lookup and all prototype-loss calculations inside `if model_args.enable_prot:`. Original skips that block and trains with cross-entropy alone.
+
+17. **Node-classification model return values** (`models/__init__.py:73–83`)
+   - **BEFORE:** The wrapper expected four values, but GAT/GIN node-classification models return three (logits, probabilities, embeddings), causing an unpacking `ValueError`.
+   - **FIX:** Accept either three or four values and use an empty prototype-distance list when the model returns three, allowing the Original node-classification path to continue.
 
 ## 3. Reproduction limits and deviations
 

@@ -70,7 +70,14 @@ class GnnNets_NC(GnnBase):
         self.model = get_model_NC(input_dim, output_dim, model_args)
         self.device = model_args.device
 
-    def forward(self, data):
+    def forward(self, data): #chan
         data = data.to(self.device)
-        logits, prob, emb, min_distances = self.model(data)
+        outputs = self.model(data)
+
+        if len(outputs) == 3:
+            logits, prob, emb = outputs
+            min_distances = []
+        else:
+            logits, prob, emb, min_distances = outputs
+
         return logits, prob, emb, min_distances

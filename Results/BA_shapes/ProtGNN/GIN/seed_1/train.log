@@ -1,0 +1,3 @@
+=== Dataset=BA_shapes | Variant=ProtGNN | Model=GIN | Seed=1 ===
+start loading data====================
+graphs 1, avg_nodes700.0000, avg_edge_index_2055.0000

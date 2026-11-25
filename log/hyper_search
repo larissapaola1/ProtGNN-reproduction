@@ -37398,3 +37398,1543 @@ Epoch 117, loss: 0.402, acc: 0.821
 Eval epoch 117, loss: 0.545, acc: 0.699
 Epoch 118, loss: 0.400, acc: 0.820
 Eval epoch 118, loss: 0.500, acc: 0.744
+Epoch 119, loss: 0.406, acc: 0.816
+Eval epoch 119, loss: 0.567, acc: 0.662
+loss: 0.339, acc: 0.877
+Epoch  0, loss: 0.404, acc: 0.819
+Eval epoch  0, loss: 0.335, acc: 0.863
+Epoch  1, loss: 0.365, acc: 0.843
+Eval epoch  1, loss: 0.353, acc: 0.866
+Epoch  2, loss: 0.358, acc: 0.849
+Eval epoch  2, loss: 0.328, acc: 0.863
+Epoch  3, loss: 0.347, acc: 0.853
+Eval epoch  3, loss: 0.330, acc: 0.877
+Epoch  4, loss: 0.337, acc: 0.857
+Eval epoch  4, loss: 0.393, acc: 0.863
+Epoch  5, loss: 0.331, acc: 0.861
+Eval epoch  5, loss: 0.357, acc: 0.871
+Epoch  6, loss: 0.327, acc: 0.860
+Eval epoch  6, loss: 0.359, acc: 0.879
+Epoch  7, loss: 0.340, acc: 0.860
+Eval epoch  7, loss: 0.342, acc: 0.877
+Epoch  8, loss: 0.328, acc: 0.862
+Eval epoch  8, loss: 0.343, acc: 0.884
+Epoch  9, loss: 0.330, acc: 0.862
+Eval epoch  9, loss: 0.361, acc: 0.876
+Epoch 10, loss: 0.323, acc: 0.864
+Eval epoch 10, loss: 0.400, acc: 0.857
+Epoch 11, loss: 0.327, acc: 0.863
+Eval epoch 11, loss: 0.362, acc: 0.868
+Epoch 12, loss: 0.331, acc: 0.866
+Eval epoch 12, loss: 0.341, acc: 0.872
+Epoch 13, loss: 0.344, acc: 0.862
+Eval epoch 13, loss: 0.351, acc: 0.867
+Epoch 14, loss: 0.335, acc: 0.866
+Eval epoch 14, loss: 0.374, acc: 0.872
+Epoch 15, loss: 0.323, acc: 0.865
+Eval epoch 15, loss: 0.360, acc: 0.874
+Epoch 16, loss: 0.317, acc: 0.868
+Eval epoch 16, loss: 0.339, acc: 0.876
+Epoch 17, loss: 0.325, acc: 0.867
+Eval epoch 17, loss: 0.344, acc: 0.883
+Epoch 18, loss: 0.322, acc: 0.865
+Eval epoch 18, loss: 0.376, acc: 0.841
+Epoch 19, loss: 0.352, acc: 0.861
+Eval epoch 19, loss: 0.349, acc: 0.872
+Epoch 20, loss: 0.321, acc: 0.866
+Eval epoch 20, loss: 0.378, acc: 0.875
+Epoch 21, loss: 0.314, acc: 0.868
+Eval epoch 21, loss: 0.468, acc: 0.850
+Epoch 22, loss: 0.327, acc: 0.864
+Eval epoch 22, loss: 0.386, acc: 0.848
+Epoch 23, loss: 0.336, acc: 0.864
+Eval epoch 23, loss: 0.419, acc: 0.858
+Epoch 24, loss: 0.332, acc: 0.864
+Eval epoch 24, loss: 0.334, acc: 0.873
+Epoch 25, loss: 0.323, acc: 0.863
+Eval epoch 25, loss: 0.427, acc: 0.876
+Epoch 26, loss: 0.342, acc: 0.856
+Eval epoch 26, loss: 0.352, acc: 0.867
+Epoch 27, loss: 0.327, acc: 0.864
+Eval epoch 27, loss: 0.363, acc: 0.873
+Epoch 28, loss: 0.323, acc: 0.863
+Eval epoch 28, loss: 0.376, acc: 0.837
+Epoch 29, loss: 0.341, acc: 0.861
+Eval epoch 29, loss: 0.351, acc: 0.863
+Epoch 30, loss: 0.341, acc: 0.857
+Eval epoch 30, loss: 0.369, acc: 0.870
+Epoch 31, loss: 0.329, acc: 0.861
+Eval epoch 31, loss: 0.393, acc: 0.865
+Epoch 32, loss: 0.335, acc: 0.861
+Eval epoch 32, loss: 0.375, acc: 0.869
+Epoch 33, loss: 0.328, acc: 0.862
+Eval epoch 33, loss: 0.358, acc: 0.874
+Epoch 34, loss: 0.335, acc: 0.861
+Eval epoch 34, loss: 0.369, acc: 0.867
+Epoch 35, loss: 0.332, acc: 0.859
+Eval epoch 35, loss: 0.359, acc: 0.866
+Epoch 36, loss: 0.344, acc: 0.853
+Eval epoch 36, loss: 0.355, acc: 0.867
+Epoch 37, loss: 0.347, acc: 0.855
+Eval epoch 37, loss: 0.382, acc: 0.857
+Epoch 38, loss: 0.342, acc: 0.854
+Eval epoch 38, loss: 0.358, acc: 0.880
+Epoch 39, loss: 0.339, acc: 0.855
+Eval epoch 39, loss: 0.338, acc: 0.877
+Epoch 40, loss: 0.332, acc: 0.858
+Eval epoch 40, loss: 0.373, acc: 0.860
+Epoch 41, loss: 0.342, acc: 0.854
+Eval epoch 41, loss: 0.388, acc: 0.859
+Epoch 42, loss: 0.338, acc: 0.857
+Eval epoch 42, loss: 0.394, acc: 0.874
+Epoch 43, loss: 0.341, acc: 0.857
+Eval epoch 43, loss: 0.359, acc: 0.882
+Epoch 44, loss: 0.353, acc: 0.847
+Eval epoch 44, loss: 0.390, acc: 0.853
+Epoch 45, loss: 0.357, acc: 0.848
+Eval epoch 45, loss: 0.439, acc: 0.837
+Epoch 46, loss: 0.341, acc: 0.853
+Eval epoch 46, loss: 0.395, acc: 0.873
+Epoch 47, loss: 0.359, acc: 0.842
+Eval epoch 47, loss: 0.413, acc: 0.874
+Epoch 48, loss: 0.386, acc: 0.825
+Eval epoch 48, loss: 0.432, acc: 0.831
+Epoch 49, loss: 0.366, acc: 0.838
+Eval epoch 49, loss: 0.404, acc: 0.871
+Epoch 50, loss: 0.360, acc: 0.840
+Eval epoch 50, loss: 0.422, acc: 0.830
+Epoch 51, loss: 0.367, acc: 0.843
+Eval epoch 51, loss: 0.413, acc: 0.862
+Epoch 52, loss: 0.373, acc: 0.842
+Eval epoch 52, loss: 0.431, acc: 0.820
+Epoch 53, loss: 0.366, acc: 0.838
+Eval epoch 53, loss: 0.387, acc: 0.869
+Epoch 54, loss: 0.398, acc: 0.832
+Eval epoch 54, loss: 0.455, acc: 0.843
+Epoch 55, loss: 0.382, acc: 0.832
+Eval epoch 55, loss: 0.419, acc: 0.866
+Epoch 56, loss: 0.380, acc: 0.836
+Eval epoch 56, loss: 0.401, acc: 0.853
+Epoch 57, loss: 0.377, acc: 0.841
+Eval epoch 57, loss: 0.457, acc: 0.859
+Epoch 58, loss: 0.367, acc: 0.838
+Eval epoch 58, loss: 0.450, acc: 0.815
+Epoch 59, loss: 0.386, acc: 0.832
+Eval epoch 59, loss: 0.434, acc: 0.816
+Epoch 60, loss: 0.379, acc: 0.839
+Eval epoch 60, loss: 0.371, acc: 0.867
+Epoch 61, loss: 0.380, acc: 0.837
+Eval epoch 61, loss: 0.399, acc: 0.843
+Epoch 62, loss: 0.370, acc: 0.838
+Eval epoch 62, loss: 0.428, acc: 0.808
+Epoch 63, loss: 0.371, acc: 0.837
+Eval epoch 63, loss: 0.446, acc: 0.828
+Epoch 64, loss: 0.396, acc: 0.824
+Eval epoch 64, loss: 0.427, acc: 0.841
+Epoch 65, loss: 0.383, acc: 0.830
+Eval epoch 65, loss: 0.421, acc: 0.857
+Epoch 66, loss: 0.383, acc: 0.830
+Eval epoch 66, loss: 0.384, acc: 0.854
+Epoch 67, loss: 0.374, acc: 0.835
+Eval epoch 67, loss: 0.444, acc: 0.863
+Epoch 68, loss: 0.392, acc: 0.831
+Eval epoch 68, loss: 0.444, acc: 0.828
+Epoch 69, loss: 0.399, acc: 0.829
+Eval epoch 69, loss: 0.390, acc: 0.839
+Epoch 70, loss: 0.382, acc: 0.830
+Eval epoch 70, loss: 0.426, acc: 0.835
+Epoch 71, loss: 0.389, acc: 0.833
+Eval epoch 71, loss: 0.439, acc: 0.808
+Epoch 72, loss: 0.379, acc: 0.835
+Eval epoch 72, loss: 0.423, acc: 0.834
+Epoch 73, loss: 0.379, acc: 0.837
+Eval epoch 73, loss: 0.441, acc: 0.798
+Epoch 74, loss: 0.377, acc: 0.837
+Eval epoch 74, loss: 0.421, acc: 0.830
+Epoch 75, loss: 0.375, acc: 0.834
+Eval epoch 75, loss: 0.448, acc: 0.852
+Epoch 76, loss: 0.390, acc: 0.833
+Eval epoch 76, loss: 0.449, acc: 0.800
+Epoch 77, loss: 0.385, acc: 0.830
+Eval epoch 77, loss: 0.415, acc: 0.852
+Epoch 78, loss: 0.402, acc: 0.832
+Eval epoch 78, loss: 0.493, acc: 0.731
+Epoch 79, loss: 0.387, acc: 0.834
+Eval epoch 79, loss: 0.456, acc: 0.816
+Epoch 80, loss: 0.392, acc: 0.828
+Eval epoch 80, loss: 0.474, acc: 0.831
+Epoch 81, loss: 0.386, acc: 0.828
+Eval epoch 81, loss: 0.468, acc: 0.844
+Epoch 82, loss: 0.401, acc: 0.829
+Eval epoch 82, loss: 0.467, acc: 0.774
+Epoch 83, loss: 0.389, acc: 0.830
+Eval epoch 83, loss: 0.420, acc: 0.855
+Epoch 84, loss: 0.376, acc: 0.832
+Eval epoch 84, loss: 0.483, acc: 0.842
+Epoch 85, loss: 0.379, acc: 0.834
+Eval epoch 85, loss: 0.458, acc: 0.864
+Epoch 86, loss: 0.378, acc: 0.834
+Eval epoch 86, loss: 0.472, acc: 0.826
+Epoch 87, loss: 0.379, acc: 0.833
+Eval epoch 87, loss: 0.456, acc: 0.799
+Epoch 88, loss: 0.400, acc: 0.827
+Eval epoch 88, loss: 0.464, acc: 0.820
+Epoch 89, loss: 0.396, acc: 0.825
+Eval epoch 89, loss: 0.431, acc: 0.837
+Epoch 90, loss: 0.388, acc: 0.832
+Eval epoch 90, loss: 0.483, acc: 0.816
+Epoch 91, loss: 0.379, acc: 0.834
+Eval epoch 91, loss: 0.464, acc: 0.829
+Epoch 92, loss: 0.383, acc: 0.831
+Eval epoch 92, loss: 0.403, acc: 0.855
+Epoch 93, loss: 0.385, acc: 0.829
+Eval epoch 93, loss: 0.410, acc: 0.833
+Epoch 94, loss: 0.388, acc: 0.832
+Eval epoch 94, loss: 0.447, acc: 0.842
+Epoch 95, loss: 0.379, acc: 0.832
+Eval epoch 95, loss: 0.440, acc: 0.816
+Epoch 96, loss: 0.378, acc: 0.834
+Eval epoch 96, loss: 0.433, acc: 0.843
+Epoch 97, loss: 0.383, acc: 0.832
+Eval epoch 97, loss: 0.479, acc: 0.839
+Epoch 98, loss: 0.382, acc: 0.831
+Eval epoch 98, loss: 0.467, acc: 0.837
+Epoch 99, loss: 0.377, acc: 0.830
+Eval epoch 99, loss: 0.484, acc: 0.845
+Epoch 100, loss: 0.370, acc: 0.835
+Eval epoch 100, loss: 0.430, acc: 0.852
+Epoch 101, loss: 0.398, acc: 0.828
+Eval epoch 101, loss: 0.430, acc: 0.842
+Epoch 102, loss: 0.380, acc: 0.831
+Eval epoch 102, loss: 0.458, acc: 0.835
+Epoch 103, loss: 0.407, acc: 0.823
+Eval epoch 103, loss: 0.462, acc: 0.839
+Epoch 104, loss: 0.395, acc: 0.826
+Eval epoch 104, loss: 0.537, acc: 0.817
+Epoch 105, loss: 0.379, acc: 0.833
+Eval epoch 105, loss: 0.494, acc: 0.831
+Epoch 106, loss: 0.397, acc: 0.829
+Eval epoch 106, loss: 0.468, acc: 0.834
+Epoch 107, loss: 0.385, acc: 0.831
+Eval epoch 107, loss: 0.464, acc: 0.843
+Epoch 108, loss: 0.383, acc: 0.830
+Eval epoch 108, loss: 0.433, acc: 0.815
+Epoch 109, loss: 0.382, acc: 0.835
+Eval epoch 109, loss: 0.440, acc: 0.840
+loss: 0.347, acc: 0.877
+Epoch  0, loss: 0.696, acc: 0.491
+Eval epoch  0, loss: 0.693, acc: 0.490
+Epoch  1, loss: 0.694, acc: 0.485
+Eval epoch  1, loss: 0.692, acc: 0.490
+Epoch  2, loss: 0.693, acc: 0.485
+Eval epoch  2, loss: 0.693, acc: 0.510
+Epoch  3, loss: 0.693, acc: 0.506
+Eval epoch  3, loss: 0.694, acc: 0.510
+Epoch  4, loss: 0.693, acc: 0.481
+Eval epoch  4, loss: 0.693, acc: 0.510
+Epoch  5, loss: 0.693, acc: 0.481
+Eval epoch  5, loss: 0.694, acc: 0.510
+Epoch  6, loss: 0.694, acc: 0.506
+Eval epoch  6, loss: 0.696, acc: 0.510
+Epoch  7, loss: 0.693, acc: 0.506
+Eval epoch  7, loss: 0.694, acc: 0.510
+Epoch  8, loss: 0.693, acc: 0.506
+Eval epoch  8, loss: 0.695, acc: 0.510
+Epoch  9, loss: 0.693, acc: 0.506
+Eval epoch  9, loss: 0.694, acc: 0.510
+Epoch 10, loss: 0.693, acc: 0.506
+Eval epoch 10, loss: 0.694, acc: 0.510
+Epoch 11, loss: 0.693, acc: 0.506
+Eval epoch 11, loss: 0.694, acc: 0.510
+Epoch 12, loss: 0.694, acc: 0.461
+Eval epoch 12, loss: 0.694, acc: 0.510
+Epoch 13, loss: 0.693, acc: 0.506
+Eval epoch 13, loss: 0.694, acc: 0.510
+Epoch 14, loss: 0.693, acc: 0.506
+Eval epoch 14, loss: 0.695, acc: 0.510
+Epoch 15, loss: 0.693, acc: 0.506
+Eval epoch 15, loss: 0.694, acc: 0.510
+Epoch 16, loss: 0.694, acc: 0.469
+Eval epoch 16, loss: 0.694, acc: 0.510
+Epoch 17, loss: 0.693, acc: 0.506
+Eval epoch 17, loss: 0.694, acc: 0.510
+Epoch 18, loss: 0.693, acc: 0.506
+Eval epoch 18, loss: 0.695, acc: 0.510
+Epoch 19, loss: 0.693, acc: 0.506
+Eval epoch 19, loss: 0.694, acc: 0.510
+Epoch 20, loss: 0.693, acc: 0.506
+Eval epoch 20, loss: 0.694, acc: 0.510
+Epoch 21, loss: 0.693, acc: 0.506
+Eval epoch 21, loss: 0.693, acc: 0.510
+Epoch 22, loss: 0.693, acc: 0.506
+Eval epoch 22, loss: 0.694, acc: 0.510
+Epoch 23, loss: 0.693, acc: 0.484
+Eval epoch 23, loss: 0.693, acc: 0.510
+Epoch 24, loss: 0.693, acc: 0.476
+Eval epoch 24, loss: 0.693, acc: 0.510
+Epoch 25, loss: 0.693, acc: 0.506
+Eval epoch 25, loss: 0.694, acc: 0.510
+Epoch 26, loss: 0.693, acc: 0.506
+Eval epoch 26, loss: 0.694, acc: 0.510
+Epoch 27, loss: 0.693, acc: 0.506
+Eval epoch 27, loss: 0.694, acc: 0.510
+Epoch 28, loss: 0.693, acc: 0.506
+Eval epoch 28, loss: 0.694, acc: 0.510
+Epoch 29, loss: 0.694, acc: 0.489
+Eval epoch 29, loss: 0.694, acc: 0.510
+Epoch 30, loss: 0.693, acc: 0.506
+Eval epoch 30, loss: 0.694, acc: 0.510
+Epoch 31, loss: 0.693, acc: 0.489
+Eval epoch 31, loss: 0.694, acc: 0.510
+Epoch 32, loss: 0.694, acc: 0.461
+Eval epoch 32, loss: 0.694, acc: 0.510
+Epoch 33, loss: 0.694, acc: 0.506
+Eval epoch 33, loss: 0.694, acc: 0.510
+Epoch 34, loss: 0.694, acc: 0.481
+Eval epoch 34, loss: 0.693, acc: 0.510
+Epoch 35, loss: 0.693, acc: 0.506
+Eval epoch 35, loss: 0.694, acc: 0.510
+Epoch 36, loss: 0.693, acc: 0.506
+Eval epoch 36, loss: 0.695, acc: 0.510
+Epoch 37, loss: 0.694, acc: 0.469
+Eval epoch 37, loss: 0.693, acc: 0.510
+Epoch 38, loss: 0.693, acc: 0.506
+Eval epoch 38, loss: 0.695, acc: 0.510
+Epoch 39, loss: 0.693, acc: 0.506
+Eval epoch 39, loss: 0.695, acc: 0.510
+Epoch 40, loss: 0.693, acc: 0.506
+Eval epoch 40, loss: 0.695, acc: 0.510
+Epoch 41, loss: 0.694, acc: 0.506
+Eval epoch 41, loss: 0.695, acc: 0.510
+Epoch 42, loss: 0.693, acc: 0.506
+Eval epoch 42, loss: 0.694, acc: 0.510
+Epoch 43, loss: 0.693, acc: 0.506
+Eval epoch 43, loss: 0.694, acc: 0.510
+Epoch 44, loss: 0.693, acc: 0.491
+Eval epoch 44, loss: 0.694, acc: 0.510
+Epoch 45, loss: 0.693, acc: 0.506
+Eval epoch 45, loss: 0.694, acc: 0.510
+Epoch 46, loss: 0.694, acc: 0.506
+Eval epoch 46, loss: 0.695, acc: 0.510
+Epoch 47, loss: 0.693, acc: 0.506
+Eval epoch 47, loss: 0.694, acc: 0.510
+Epoch 48, loss: 0.694, acc: 0.469
+Eval epoch 48, loss: 0.693, acc: 0.510
+Epoch 49, loss: 0.693, acc: 0.506
+Eval epoch 49, loss: 0.695, acc: 0.510
+Epoch 50, loss: 0.693, acc: 0.506
+Eval epoch 50, loss: 0.694, acc: 0.510
+Epoch 51, loss: 0.693, acc: 0.506
+Eval epoch 51, loss: 0.694, acc: 0.510
+Epoch 52, loss: 0.693, acc: 0.506
+Eval epoch 52, loss: 0.694, acc: 0.510
+Epoch 53, loss: 0.693, acc: 0.506
+Eval epoch 53, loss: 0.694, acc: 0.510
+Epoch 54, loss: 0.693, acc: 0.506
+Eval epoch 54, loss: 0.693, acc: 0.510
+Epoch 55, loss: 0.693, acc: 0.506
+Eval epoch 55, loss: 0.694, acc: 0.510
+Epoch 56, loss: 0.694, acc: 0.506
+Eval epoch 56, loss: 0.694, acc: 0.510
+Epoch 57, loss: 0.693, acc: 0.484
+Eval epoch 57, loss: 0.693, acc: 0.510
+Epoch 58, loss: 0.694, acc: 0.506
+Eval epoch 58, loss: 0.694, acc: 0.510
+Epoch 59, loss: 0.694, acc: 0.469
+Eval epoch 59, loss: 0.694, acc: 0.510
+Epoch 60, loss: 0.693, acc: 0.506
+Eval epoch 60, loss: 0.694, acc: 0.510
+Epoch 61, loss: 0.694, acc: 0.469
+Eval epoch 61, loss: 0.693, acc: 0.510
+Epoch 62, loss: 0.694, acc: 0.506
+Eval epoch 62, loss: 0.694, acc: 0.510
+Epoch 63, loss: 0.693, acc: 0.506
+Eval epoch 63, loss: 0.695, acc: 0.510
+Epoch 64, loss: 0.693, acc: 0.506
+Eval epoch 64, loss: 0.694, acc: 0.510
+Epoch 65, loss: 0.693, acc: 0.506
+Eval epoch 65, loss: 0.695, acc: 0.510
+Epoch 66, loss: 0.694, acc: 0.506
+Eval epoch 66, loss: 0.694, acc: 0.510
+Epoch 67, loss: 0.693, acc: 0.506
+Eval epoch 67, loss: 0.694, acc: 0.510
+Epoch 68, loss: 0.693, acc: 0.506
+Eval epoch 68, loss: 0.694, acc: 0.510
+Epoch 69, loss: 0.694, acc: 0.506
+Eval epoch 69, loss: 0.695, acc: 0.510
+Epoch 70, loss: 0.693, acc: 0.486
+Eval epoch 70, loss: 0.693, acc: 0.510
+Epoch 71, loss: 0.694, acc: 0.506
+Eval epoch 71, loss: 0.695, acc: 0.510
+Epoch 72, loss: 0.694, acc: 0.466
+Eval epoch 72, loss: 0.693, acc: 0.510
+Epoch 73, loss: 0.694, acc: 0.506
+Eval epoch 73, loss: 0.695, acc: 0.510
+Epoch 74, loss: 0.693, acc: 0.506
+Eval epoch 74, loss: 0.694, acc: 0.510
+Epoch 75, loss: 0.693, acc: 0.506
+Eval epoch 75, loss: 0.694, acc: 0.510
+Epoch 76, loss: 0.694, acc: 0.506
+Eval epoch 76, loss: 0.695, acc: 0.510
+Epoch 77, loss: 0.694, acc: 0.506
+Eval epoch 77, loss: 0.695, acc: 0.510
+Epoch 78, loss: 0.693, acc: 0.506
+Eval epoch 78, loss: 0.693, acc: 0.510
+Epoch 79, loss: 0.694, acc: 0.466
+Eval epoch 79, loss: 0.693, acc: 0.510
+Epoch 80, loss: 0.694, acc: 0.506
+Eval epoch 80, loss: 0.695, acc: 0.510
+Epoch 81, loss: 0.693, acc: 0.506
+Eval epoch 81, loss: 0.694, acc: 0.510
+Epoch 82, loss: 0.693, acc: 0.506
+Eval epoch 82, loss: 0.694, acc: 0.510
+Epoch 83, loss: 0.693, acc: 0.506
+Eval epoch 83, loss: 0.693, acc: 0.510
+Epoch 84, loss: 0.693, acc: 0.506
+Eval epoch 84, loss: 0.694, acc: 0.510
+Epoch 85, loss: 0.694, acc: 0.506
+Eval epoch 85, loss: 0.695, acc: 0.510
+Epoch 86, loss: 0.693, acc: 0.506
+Eval epoch 86, loss: 0.694, acc: 0.510
+Epoch 87, loss: 0.693, acc: 0.506
+Eval epoch 87, loss: 0.693, acc: 0.510
+Epoch 88, loss: 0.693, acc: 0.469
+Eval epoch 88, loss: 0.693, acc: 0.490
+Epoch 89, loss: 0.693, acc: 0.506
+Eval epoch 89, loss: 0.694, acc: 0.510
+Epoch 90, loss: 0.694, acc: 0.466
+Eval epoch 90, loss: 0.694, acc: 0.510
+Epoch 91, loss: 0.693, acc: 0.506
+Eval epoch 91, loss: 0.695, acc: 0.510
+Epoch 92, loss: 0.693, acc: 0.506
+Eval epoch 92, loss: 0.695, acc: 0.510
+Epoch 93, loss: 0.693, acc: 0.506
+Eval epoch 93, loss: 0.694, acc: 0.510
+Epoch 94, loss: 0.693, acc: 0.506
+Eval epoch 94, loss: 0.694, acc: 0.510
+Epoch 95, loss: 0.694, acc: 0.506
+Eval epoch 95, loss: 0.695, acc: 0.510
+Epoch 96, loss: 0.694, acc: 0.456
+Eval epoch 96, loss: 0.693, acc: 0.490
+Epoch 97, loss: 0.693, acc: 0.504
+Eval epoch 97, loss: 0.694, acc: 0.510
+Epoch 98, loss: 0.693, acc: 0.506
+Eval epoch 98, loss: 0.694, acc: 0.510
+Epoch 99, loss: 0.693, acc: 0.506
+Eval epoch 99, loss: 0.694, acc: 0.510
+Epoch 100, loss: 0.694, acc: 0.506
+Eval epoch 100, loss: 0.695, acc: 0.510
+Epoch 101, loss: 0.693, acc: 0.506
+Eval epoch 101, loss: 0.694, acc: 0.510
+Epoch 102, loss: 0.693, acc: 0.506
+Eval epoch 102, loss: 0.694, acc: 0.510
+Epoch 103, loss: 0.694, acc: 0.506
+Eval epoch 103, loss: 0.694, acc: 0.510
+loss: 0.693, acc: 0.440
+Epoch  0, loss: 0.695, acc: 0.480
+Eval epoch  0, loss: 0.695, acc: 0.460
+Epoch  1, loss: 0.695, acc: 0.479
+Eval epoch  1, loss: 0.695, acc: 0.460
+Epoch  2, loss: 0.694, acc: 0.492
+Eval epoch  2, loss: 0.694, acc: 0.460
+Epoch  3, loss: 0.693, acc: 0.505
+Eval epoch  3, loss: 0.692, acc: 0.540
+Epoch  4, loss: 0.694, acc: 0.485
+Eval epoch  4, loss: 0.693, acc: 0.540
+Epoch  5, loss: 0.693, acc: 0.490
+Eval epoch  5, loss: 0.693, acc: 0.540
+Epoch  6, loss: 0.694, acc: 0.507
+Eval epoch  6, loss: 0.693, acc: 0.540
+Epoch  7, loss: 0.694, acc: 0.484
+Eval epoch  7, loss: 0.694, acc: 0.460
+Epoch  8, loss: 0.694, acc: 0.494
+Eval epoch  8, loss: 0.692, acc: 0.540
+Epoch  9, loss: 0.693, acc: 0.506
+Eval epoch  9, loss: 0.693, acc: 0.540
+Epoch 10, loss: 0.694, acc: 0.475
+Eval epoch 10, loss: 0.693, acc: 0.540
+Epoch 11, loss: 0.694, acc: 0.464
+Eval epoch 11, loss: 0.692, acc: 0.540
+Epoch 12, loss: 0.693, acc: 0.506
+Eval epoch 12, loss: 0.693, acc: 0.540
+Epoch 13, loss: 0.693, acc: 0.506
+Eval epoch 13, loss: 0.692, acc: 0.540
+Epoch 14, loss: 0.693, acc: 0.506
+Eval epoch 14, loss: 0.692, acc: 0.540
+Epoch 15, loss: 0.693, acc: 0.506
+Eval epoch 15, loss: 0.692, acc: 0.540
+Epoch 16, loss: 0.693, acc: 0.506
+Eval epoch 16, loss: 0.692, acc: 0.540
+Epoch 17, loss: 0.693, acc: 0.506
+Eval epoch 17, loss: 0.693, acc: 0.540
+Epoch 18, loss: 0.693, acc: 0.497
+Eval epoch 18, loss: 0.693, acc: 0.540
+Epoch 19, loss: 0.694, acc: 0.466
+Eval epoch 19, loss: 0.693, acc: 0.540
+Epoch 20, loss: 0.694, acc: 0.506
+Eval epoch 20, loss: 0.692, acc: 0.540
+Epoch 21, loss: 0.694, acc: 0.506
+Eval epoch 21, loss: 0.692, acc: 0.540
+Epoch 22, loss: 0.694, acc: 0.506
+Eval epoch 22, loss: 0.693, acc: 0.540
+Epoch 23, loss: 0.693, acc: 0.495
+Eval epoch 23, loss: 0.693, acc: 0.540
+Epoch 24, loss: 0.694, acc: 0.485
+Eval epoch 24, loss: 0.692, acc: 0.540
+Epoch 25, loss: 0.693, acc: 0.506
+Eval epoch 25, loss: 0.693, acc: 0.540
+Epoch 26, loss: 0.693, acc: 0.484
+Eval epoch 26, loss: 0.693, acc: 0.540
+Epoch 27, loss: 0.693, acc: 0.486
+Eval epoch 27, loss: 0.693, acc: 0.540
+Epoch 28, loss: 0.694, acc: 0.506
+Eval epoch 28, loss: 0.692, acc: 0.540
+Epoch 29, loss: 0.693, acc: 0.506
+Eval epoch 29, loss: 0.692, acc: 0.540
+Epoch 30, loss: 0.694, acc: 0.506
+Eval epoch 30, loss: 0.692, acc: 0.540
+Epoch 31, loss: 0.693, acc: 0.471
+Eval epoch 31, loss: 0.693, acc: 0.540
+Epoch 32, loss: 0.693, acc: 0.506
+Eval epoch 32, loss: 0.693, acc: 0.540
+Epoch 33, loss: 0.693, acc: 0.506
+Eval epoch 33, loss: 0.693, acc: 0.540
+Epoch 34, loss: 0.693, acc: 0.463
+Eval epoch 34, loss: 0.693, acc: 0.540
+Epoch 35, loss: 0.693, acc: 0.489
+Eval epoch 35, loss: 0.693, acc: 0.540
+Epoch 36, loss: 0.693, acc: 0.506
+Eval epoch 36, loss: 0.692, acc: 0.540
+Epoch 37, loss: 0.693, acc: 0.506
+Eval epoch 37, loss: 0.692, acc: 0.540
+Epoch 38, loss: 0.693, acc: 0.506
+Eval epoch 38, loss: 0.692, acc: 0.540
+Epoch 39, loss: 0.693, acc: 0.506
+Eval epoch 39, loss: 0.692, acc: 0.540
+Epoch 40, loss: 0.694, acc: 0.469
+Eval epoch 40, loss: 0.692, acc: 0.540
+Epoch 41, loss: 0.693, acc: 0.506
+Eval epoch 41, loss: 0.692, acc: 0.540
+Epoch 42, loss: 0.693, acc: 0.506
+Eval epoch 42, loss: 0.692, acc: 0.540
+Epoch 43, loss: 0.693, acc: 0.506
+Eval epoch 43, loss: 0.692, acc: 0.540
+Epoch 44, loss: 0.694, acc: 0.506
+Eval epoch 44, loss: 0.692, acc: 0.540
+Epoch 45, loss: 0.693, acc: 0.506
+Eval epoch 45, loss: 0.693, acc: 0.540
+Epoch 46, loss: 0.693, acc: 0.506
+Eval epoch 46, loss: 0.692, acc: 0.540
+Epoch 47, loss: 0.693, acc: 0.506
+Eval epoch 47, loss: 0.692, acc: 0.540
+Epoch 48, loss: 0.693, acc: 0.506
+Eval epoch 48, loss: 0.692, acc: 0.540
+Epoch 49, loss: 0.693, acc: 0.496
+Eval epoch 49, loss: 0.692, acc: 0.540
+Epoch 50, loss: 0.693, acc: 0.506
+Eval epoch 50, loss: 0.692, acc: 0.540
+Epoch 51, loss: 0.694, acc: 0.506
+Eval epoch 51, loss: 0.692, acc: 0.540
+Epoch 52, loss: 0.693, acc: 0.506
+Eval epoch 52, loss: 0.692, acc: 0.540
+Epoch 53, loss: 0.693, acc: 0.506
+Eval epoch 53, loss: 0.693, acc: 0.540
+Epoch 54, loss: 0.693, acc: 0.479
+Eval epoch 54, loss: 0.693, acc: 0.540
+Epoch 55, loss: 0.693, acc: 0.506
+Eval epoch 55, loss: 0.692, acc: 0.540
+Epoch 56, loss: 0.694, acc: 0.466
+Eval epoch 56, loss: 0.693, acc: 0.540
+Epoch 57, loss: 0.693, acc: 0.506
+Eval epoch 57, loss: 0.692, acc: 0.540
+Epoch 58, loss: 0.694, acc: 0.506
+Eval epoch 58, loss: 0.692, acc: 0.540
+Epoch 59, loss: 0.693, acc: 0.506
+Eval epoch 59, loss: 0.692, acc: 0.540
+Epoch 60, loss: 0.693, acc: 0.506
+Eval epoch 60, loss: 0.692, acc: 0.540
+Epoch 61, loss: 0.693, acc: 0.506
+Eval epoch 61, loss: 0.692, acc: 0.540
+Epoch 62, loss: 0.694, acc: 0.506
+Eval epoch 62, loss: 0.693, acc: 0.540
+Epoch 63, loss: 0.693, acc: 0.486
+Eval epoch 63, loss: 0.692, acc: 0.540
+Epoch 64, loss: 0.693, acc: 0.471
+Eval epoch 64, loss: 0.693, acc: 0.540
+Epoch 65, loss: 0.694, acc: 0.506
+Eval epoch 65, loss: 0.692, acc: 0.540
+Epoch 66, loss: 0.694, acc: 0.489
+Eval epoch 66, loss: 0.693, acc: 0.540
+Epoch 67, loss: 0.693, acc: 0.506
+Eval epoch 67, loss: 0.692, acc: 0.540
+Epoch 68, loss: 0.694, acc: 0.506
+Eval epoch 68, loss: 0.692, acc: 0.540
+Epoch 69, loss: 0.693, acc: 0.486
+Eval epoch 69, loss: 0.693, acc: 0.540
+Epoch 70, loss: 0.693, acc: 0.506
+Eval epoch 70, loss: 0.693, acc: 0.540
+Epoch 71, loss: 0.695, acc: 0.506
+Eval epoch 71, loss: 0.692, acc: 0.540
+Epoch 72, loss: 0.693, acc: 0.506
+Eval epoch 72, loss: 0.693, acc: 0.540
+Epoch 73, loss: 0.693, acc: 0.494
+Eval epoch 73, loss: 0.692, acc: 0.540
+Epoch 74, loss: 0.694, acc: 0.506
+Eval epoch 74, loss: 0.692, acc: 0.540
+Epoch 75, loss: 0.693, acc: 0.506
+Eval epoch 75, loss: 0.693, acc: 0.540
+Epoch 76, loss: 0.693, acc: 0.484
+Eval epoch 76, loss: 0.693, acc: 0.460
+Epoch 77, loss: 0.693, acc: 0.489
+Eval epoch 77, loss: 0.692, acc: 0.540
+Epoch 78, loss: 0.693, acc: 0.506
+Eval epoch 78, loss: 0.692, acc: 0.540
+Epoch 79, loss: 0.693, acc: 0.506
+Eval epoch 79, loss: 0.693, acc: 0.540
+Epoch 80, loss: 0.693, acc: 0.506
+Eval epoch 80, loss: 0.692, acc: 0.540
+Epoch 81, loss: 0.693, acc: 0.479
+Eval epoch 81, loss: 0.693, acc: 0.540
+Epoch 82, loss: 0.693, acc: 0.506
+Eval epoch 82, loss: 0.692, acc: 0.540
+Epoch 83, loss: 0.694, acc: 0.506
+Eval epoch 83, loss: 0.692, acc: 0.540
+Epoch 84, loss: 0.693, acc: 0.506
+Eval epoch 84, loss: 0.692, acc: 0.540
+Epoch 85, loss: 0.693, acc: 0.486
+Eval epoch 85, loss: 0.693, acc: 0.460
+Epoch 86, loss: 0.693, acc: 0.496
+Eval epoch 86, loss: 0.693, acc: 0.540
+Epoch 87, loss: 0.694, acc: 0.506
+Eval epoch 87, loss: 0.692, acc: 0.540
+Epoch 88, loss: 0.694, acc: 0.464
+Eval epoch 88, loss: 0.693, acc: 0.540
+Epoch 89, loss: 0.693, acc: 0.506
+Eval epoch 89, loss: 0.693, acc: 0.540
+Epoch 90, loss: 0.693, acc: 0.506
+Eval epoch 90, loss: 0.692, acc: 0.540
+Epoch 91, loss: 0.693, acc: 0.506
+Eval epoch 91, loss: 0.693, acc: 0.540
+Epoch 92, loss: 0.693, acc: 0.506
+Eval epoch 92, loss: 0.692, acc: 0.540
+Epoch 93, loss: 0.693, acc: 0.506
+Eval epoch 93, loss: 0.693, acc: 0.540
+Epoch 94, loss: 0.694, acc: 0.466
+Eval epoch 94, loss: 0.693, acc: 0.540
+Epoch 95, loss: 0.693, acc: 0.506
+Eval epoch 95, loss: 0.692, acc: 0.540
+Epoch 96, loss: 0.693, acc: 0.506
+Eval epoch 96, loss: 0.693, acc: 0.540
+Epoch 97, loss: 0.693, acc: 0.506
+Eval epoch 97, loss: 0.692, acc: 0.540
+Epoch 98, loss: 0.693, acc: 0.506
+Eval epoch 98, loss: 0.692, acc: 0.540
+Epoch 99, loss: 0.693, acc: 0.506
+Eval epoch 99, loss: 0.693, acc: 0.540
+Epoch 100, loss: 0.693, acc: 0.474
+Eval epoch 100, loss: 0.693, acc: 0.540
+Epoch 101, loss: 0.693, acc: 0.506
+Eval epoch 101, loss: 0.692, acc: 0.540
+Epoch 102, loss: 0.694, acc: 0.506
+Eval epoch 102, loss: 0.692, acc: 0.540
+Epoch 103, loss: 0.694, acc: 0.481
+Eval epoch 103, loss: 0.693, acc: 0.460
+Epoch 104, loss: 0.694, acc: 0.499
+Eval epoch 104, loss: 0.692, acc: 0.540
+loss: 0.696, acc: 0.410
+Epoch  0, loss: 0.698, acc: 0.486
+Eval epoch  0, loss: 0.704, acc: 0.480
+Epoch  1, loss: 0.694, acc: 0.487
+Eval epoch  1, loss: 0.697, acc: 0.480
+Epoch  2, loss: 0.695, acc: 0.469
+Eval epoch  2, loss: 0.700, acc: 0.480
+Epoch  3, loss: 0.694, acc: 0.505
+Eval epoch  3, loss: 0.696, acc: 0.480
+Epoch  4, loss: 0.694, acc: 0.504
+Eval epoch  4, loss: 0.696, acc: 0.480
+Epoch  5, loss: 0.694, acc: 0.505
+Eval epoch  5, loss: 0.697, acc: 0.480
+Epoch  6, loss: 0.694, acc: 0.509
+Eval epoch  6, loss: 0.694, acc: 0.480
+Epoch  7, loss: 0.693, acc: 0.505
+Eval epoch  7, loss: 0.695, acc: 0.480
+Epoch  8, loss: 0.693, acc: 0.505
+Eval epoch  8, loss: 0.696, acc: 0.480
+Epoch  9, loss: 0.693, acc: 0.490
+Eval epoch  9, loss: 0.694, acc: 0.480
+Epoch 10, loss: 0.694, acc: 0.505
+Eval epoch 10, loss: 0.696, acc: 0.480
+Epoch 11, loss: 0.694, acc: 0.468
+Eval epoch 11, loss: 0.694, acc: 0.480
+Epoch 12, loss: 0.694, acc: 0.475
+Eval epoch 12, loss: 0.693, acc: 0.480
+Epoch 13, loss: 0.693, acc: 0.505
+Eval epoch 13, loss: 0.696, acc: 0.480
+Epoch 14, loss: 0.693, acc: 0.505
+Eval epoch 14, loss: 0.694, acc: 0.480
+Epoch 15, loss: 0.693, acc: 0.505
+Eval epoch 15, loss: 0.694, acc: 0.480
+Epoch 16, loss: 0.694, acc: 0.505
+Eval epoch 16, loss: 0.694, acc: 0.480
+Epoch 17, loss: 0.693, acc: 0.505
+Eval epoch 17, loss: 0.695, acc: 0.480
+Epoch 18, loss: 0.693, acc: 0.505
+Eval epoch 18, loss: 0.694, acc: 0.480
+Epoch 19, loss: 0.694, acc: 0.505
+Eval epoch 19, loss: 0.696, acc: 0.480
+Epoch 20, loss: 0.693, acc: 0.505
+Eval epoch 20, loss: 0.694, acc: 0.480
+Epoch 21, loss: 0.693, acc: 0.505
+Eval epoch 21, loss: 0.695, acc: 0.480
+Epoch 22, loss: 0.694, acc: 0.505
+Eval epoch 22, loss: 0.694, acc: 0.480
+Epoch 23, loss: 0.693, acc: 0.505
+Eval epoch 23, loss: 0.695, acc: 0.480
+Epoch 24, loss: 0.693, acc: 0.477
+Eval epoch 24, loss: 0.694, acc: 0.480
+Epoch 25, loss: 0.693, acc: 0.505
+Eval epoch 25, loss: 0.695, acc: 0.480
+Epoch 26, loss: 0.693, acc: 0.505
+Eval epoch 26, loss: 0.696, acc: 0.480
+Epoch 27, loss: 0.693, acc: 0.505
+Eval epoch 27, loss: 0.695, acc: 0.480
+Epoch 28, loss: 0.693, acc: 0.490
+Eval epoch 28, loss: 0.694, acc: 0.480
+Epoch 29, loss: 0.693, acc: 0.479
+Eval epoch 29, loss: 0.694, acc: 0.480
+Epoch 30, loss: 0.694, acc: 0.505
+Eval epoch 30, loss: 0.696, acc: 0.480
+Epoch 31, loss: 0.693, acc: 0.505
+Eval epoch 31, loss: 0.694, acc: 0.480
+Epoch 32, loss: 0.693, acc: 0.505
+Eval epoch 32, loss: 0.695, acc: 0.480
+Epoch 33, loss: 0.693, acc: 0.489
+Eval epoch 33, loss: 0.694, acc: 0.480
+Epoch 34, loss: 0.693, acc: 0.505
+Eval epoch 34, loss: 0.694, acc: 0.480
+Epoch 35, loss: 0.694, acc: 0.505
+Eval epoch 35, loss: 0.695, acc: 0.480
+Epoch 36, loss: 0.693, acc: 0.492
+Eval epoch 36, loss: 0.693, acc: 0.520
+Epoch 37, loss: 0.693, acc: 0.500
+Eval epoch 37, loss: 0.695, acc: 0.480
+Epoch 38, loss: 0.693, acc: 0.475
+Eval epoch 38, loss: 0.694, acc: 0.480
+Epoch 39, loss: 0.693, acc: 0.505
+Eval epoch 39, loss: 0.695, acc: 0.480
+Epoch 40, loss: 0.693, acc: 0.505
+Eval epoch 40, loss: 0.694, acc: 0.480
+Epoch 41, loss: 0.693, acc: 0.481
+Eval epoch 41, loss: 0.694, acc: 0.480
+Epoch 42, loss: 0.693, acc: 0.482
+Eval epoch 42, loss: 0.694, acc: 0.480
+Epoch 43, loss: 0.693, acc: 0.505
+Eval epoch 43, loss: 0.695, acc: 0.480
+Epoch 44, loss: 0.694, acc: 0.505
+Eval epoch 44, loss: 0.696, acc: 0.480
+Epoch 45, loss: 0.693, acc: 0.505
+Eval epoch 45, loss: 0.694, acc: 0.480
+Epoch 46, loss: 0.693, acc: 0.487
+Eval epoch 46, loss: 0.693, acc: 0.520
+Epoch 47, loss: 0.693, acc: 0.500
+Eval epoch 47, loss: 0.695, acc: 0.480
+Epoch 48, loss: 0.693, acc: 0.505
+Eval epoch 48, loss: 0.695, acc: 0.480
+Epoch 49, loss: 0.693, acc: 0.485
+Eval epoch 49, loss: 0.693, acc: 0.480
+Epoch 50, loss: 0.693, acc: 0.505
+Eval epoch 50, loss: 0.694, acc: 0.480
+Epoch 51, loss: 0.694, acc: 0.505
+Eval epoch 51, loss: 0.696, acc: 0.480
+Epoch 52, loss: 0.693, acc: 0.505
+Eval epoch 52, loss: 0.694, acc: 0.480
+Epoch 53, loss: 0.693, acc: 0.505
+Eval epoch 53, loss: 0.694, acc: 0.480
+Epoch 54, loss: 0.693, acc: 0.505
+Eval epoch 54, loss: 0.695, acc: 0.480
+Epoch 55, loss: 0.694, acc: 0.505
+Eval epoch 55, loss: 0.696, acc: 0.480
+Epoch 56, loss: 0.694, acc: 0.465
+Eval epoch 56, loss: 0.694, acc: 0.480
+Epoch 57, loss: 0.693, acc: 0.505
+Eval epoch 57, loss: 0.695, acc: 0.480
+Epoch 58, loss: 0.694, acc: 0.505
+Eval epoch 58, loss: 0.695, acc: 0.480
+Epoch 59, loss: 0.693, acc: 0.505
+Eval epoch 59, loss: 0.695, acc: 0.480
+Epoch 60, loss: 0.694, acc: 0.505
+Eval epoch 60, loss: 0.695, acc: 0.480
+Epoch 61, loss: 0.693, acc: 0.487
+Eval epoch 61, loss: 0.693, acc: 0.480
+Epoch 62, loss: 0.693, acc: 0.505
+Eval epoch 62, loss: 0.695, acc: 0.480
+Epoch 63, loss: 0.694, acc: 0.472
+Eval epoch 63, loss: 0.694, acc: 0.480
+Epoch 64, loss: 0.693, acc: 0.505
+Eval epoch 64, loss: 0.696, acc: 0.480
+Epoch 65, loss: 0.694, acc: 0.465
+Eval epoch 65, loss: 0.693, acc: 0.480
+Epoch 66, loss: 0.693, acc: 0.505
+Eval epoch 66, loss: 0.696, acc: 0.480
+Epoch 67, loss: 0.693, acc: 0.505
+Eval epoch 67, loss: 0.695, acc: 0.480
+Epoch 68, loss: 0.694, acc: 0.475
+Eval epoch 68, loss: 0.692, acc: 0.520
+Epoch 69, loss: 0.693, acc: 0.490
+Eval epoch 69, loss: 0.695, acc: 0.480
+Epoch 70, loss: 0.693, acc: 0.505
+Eval epoch 70, loss: 0.694, acc: 0.480
+Epoch 71, loss: 0.693, acc: 0.505
+Eval epoch 71, loss: 0.695, acc: 0.480
+Epoch 72, loss: 0.694, acc: 0.477
+Eval epoch 72, loss: 0.694, acc: 0.480
+Epoch 73, loss: 0.693, acc: 0.505
+Eval epoch 73, loss: 0.694, acc: 0.480
+Epoch 74, loss: 0.693, acc: 0.505
+Eval epoch 74, loss: 0.695, acc: 0.480
+Epoch 75, loss: 0.693, acc: 0.475
+Eval epoch 75, loss: 0.694, acc: 0.480
+Epoch 76, loss: 0.694, acc: 0.505
+Eval epoch 76, loss: 0.696, acc: 0.480
+Epoch 77, loss: 0.693, acc: 0.465
+Eval epoch 77, loss: 0.693, acc: 0.480
+Epoch 78, loss: 0.693, acc: 0.468
+Eval epoch 78, loss: 0.694, acc: 0.480
+Epoch 79, loss: 0.693, acc: 0.505
+Eval epoch 79, loss: 0.695, acc: 0.480
+Epoch 80, loss: 0.693, acc: 0.505
+Eval epoch 80, loss: 0.694, acc: 0.480
+Epoch 81, loss: 0.693, acc: 0.475
+Eval epoch 81, loss: 0.694, acc: 0.480
+Epoch 82, loss: 0.693, acc: 0.505
+Eval epoch 82, loss: 0.694, acc: 0.480
+Epoch 83, loss: 0.693, acc: 0.505
+Eval epoch 83, loss: 0.696, acc: 0.480
+Epoch 84, loss: 0.693, acc: 0.505
+Eval epoch 84, loss: 0.694, acc: 0.480
+Epoch 85, loss: 0.694, acc: 0.505
+Eval epoch 85, loss: 0.695, acc: 0.480
+Epoch 86, loss: 0.693, acc: 0.470
+Eval epoch 86, loss: 0.693, acc: 0.520
+Epoch 87, loss: 0.694, acc: 0.495
+Eval epoch 87, loss: 0.693, acc: 0.520
+Epoch 88, loss: 0.694, acc: 0.500
+Eval epoch 88, loss: 0.696, acc: 0.480
+Epoch 89, loss: 0.693, acc: 0.505
+Eval epoch 89, loss: 0.696, acc: 0.480
+Epoch 90, loss: 0.694, acc: 0.505
+Eval epoch 90, loss: 0.695, acc: 0.480
+Epoch 91, loss: 0.694, acc: 0.505
+Eval epoch 91, loss: 0.695, acc: 0.480
+Epoch 92, loss: 0.693, acc: 0.505
+Eval epoch 92, loss: 0.693, acc: 0.480
+Epoch 93, loss: 0.693, acc: 0.505
+Eval epoch 93, loss: 0.694, acc: 0.480
+Epoch 94, loss: 0.693, acc: 0.485
+Eval epoch 94, loss: 0.694, acc: 0.480
+Epoch 95, loss: 0.693, acc: 0.500
+Eval epoch 95, loss: 0.694, acc: 0.480
+Epoch 96, loss: 0.693, acc: 0.505
+Eval epoch 96, loss: 0.693, acc: 0.480
+Epoch 97, loss: 0.693, acc: 0.475
+Eval epoch 97, loss: 0.693, acc: 0.480
+Epoch 98, loss: 0.693, acc: 0.472
+Eval epoch 98, loss: 0.694, acc: 0.480
+Epoch 99, loss: 0.694, acc: 0.475
+Eval epoch 99, loss: 0.694, acc: 0.480
+Epoch 100, loss: 0.693, acc: 0.505
+Eval epoch 100, loss: 0.696, acc: 0.480
+Epoch 101, loss: 0.693, acc: 0.505
+Eval epoch 101, loss: 0.696, acc: 0.480
+Epoch 102, loss: 0.694, acc: 0.505
+Eval epoch 102, loss: 0.695, acc: 0.480
+Epoch 103, loss: 0.693, acc: 0.480
+Eval epoch 103, loss: 0.693, acc: 0.480
+Epoch 104, loss: 0.695, acc: 0.505
+Eval epoch 104, loss: 0.695, acc: 0.480
+Epoch 105, loss: 0.693, acc: 0.477
+Eval epoch 105, loss: 0.693, acc: 0.480
+Epoch 106, loss: 0.694, acc: 0.505
+Eval epoch 106, loss: 0.695, acc: 0.480
+Epoch 107, loss: 0.694, acc: 0.495
+Eval epoch 107, loss: 0.692, acc: 0.520
+Epoch 108, loss: 0.693, acc: 0.510
+Eval epoch 108, loss: 0.695, acc: 0.480
+Epoch 109, loss: 0.693, acc: 0.505
+Eval epoch 109, loss: 0.694, acc: 0.480
+Epoch 110, loss: 0.693, acc: 0.505
+Eval epoch 110, loss: 0.695, acc: 0.480
+Epoch 111, loss: 0.693, acc: 0.505
+Eval epoch 111, loss: 0.694, acc: 0.480
+Epoch 112, loss: 0.693, acc: 0.505
+Eval epoch 112, loss: 0.694, acc: 0.480
+Epoch 113, loss: 0.693, acc: 0.505
+Eval epoch 113, loss: 0.695, acc: 0.480
+Epoch 114, loss: 0.693, acc: 0.505
+Eval epoch 114, loss: 0.694, acc: 0.480
+Epoch 115, loss: 0.693, acc: 0.505
+Eval epoch 115, loss: 0.694, acc: 0.480
+Epoch 116, loss: 0.693, acc: 0.458
+Eval epoch 116, loss: 0.693, acc: 0.480
+Epoch 117, loss: 0.693, acc: 0.505
+Eval epoch 117, loss: 0.694, acc: 0.480
+Epoch 118, loss: 0.694, acc: 0.505
+Eval epoch 118, loss: 0.696, acc: 0.480
+Epoch 119, loss: 0.693, acc: 0.480
+Eval epoch 119, loss: 0.693, acc: 0.480
+Epoch 120, loss: 0.693, acc: 0.505
+Eval epoch 120, loss: 0.696, acc: 0.480
+Epoch 121, loss: 0.694, acc: 0.505
+Eval epoch 121, loss: 0.696, acc: 0.480
+Epoch 122, loss: 0.694, acc: 0.480
+Eval epoch 122, loss: 0.693, acc: 0.520
+Epoch 123, loss: 0.693, acc: 0.492
+Eval epoch 123, loss: 0.693, acc: 0.480
+Epoch 124, loss: 0.693, acc: 0.477
+Eval epoch 124, loss: 0.693, acc: 0.520
+Epoch 125, loss: 0.693, acc: 0.502
+Eval epoch 125, loss: 0.694, acc: 0.480
+Epoch 126, loss: 0.693, acc: 0.505
+Eval epoch 126, loss: 0.695, acc: 0.480
+Epoch 127, loss: 0.693, acc: 0.505
+Eval epoch 127, loss: 0.694, acc: 0.480
+Epoch 128, loss: 0.693, acc: 0.505
+Eval epoch 128, loss: 0.695, acc: 0.480
+Epoch 129, loss: 0.693, acc: 0.505
+Eval epoch 129, loss: 0.695, acc: 0.480
+Epoch 130, loss: 0.693, acc: 0.505
+Eval epoch 130, loss: 0.695, acc: 0.480
+Epoch 131, loss: 0.694, acc: 0.475
+Eval epoch 131, loss: 0.694, acc: 0.480
+Epoch 132, loss: 0.693, acc: 0.505
+Eval epoch 132, loss: 0.695, acc: 0.480
+Epoch 133, loss: 0.694, acc: 0.505
+Eval epoch 133, loss: 0.695, acc: 0.480
+Epoch 134, loss: 0.693, acc: 0.505
+Eval epoch 134, loss: 0.694, acc: 0.480
+Epoch 135, loss: 0.693, acc: 0.505
+Eval epoch 135, loss: 0.695, acc: 0.480
+Epoch 136, loss: 0.693, acc: 0.487
+Eval epoch 136, loss: 0.694, acc: 0.480
+Epoch 137, loss: 0.693, acc: 0.505
+Eval epoch 137, loss: 0.695, acc: 0.480
+loss: 0.693, acc: 0.520
+Epoch  0, loss: 0.694, acc: 0.480
+Eval epoch  0, loss: 0.696, acc: 0.510
+Epoch  1, loss: 0.693, acc: 0.506
+Eval epoch  1, loss: 0.696, acc: 0.510
+Epoch  2, loss: 0.694, acc: 0.506
+Eval epoch  2, loss: 0.694, acc: 0.510
+Epoch  3, loss: 0.694, acc: 0.474
+Eval epoch  3, loss: 0.694, acc: 0.510
+Epoch  4, loss: 0.694, acc: 0.479
+Eval epoch  4, loss: 0.695, acc: 0.510
+Epoch  5, loss: 0.694, acc: 0.454
+Eval epoch  5, loss: 0.695, acc: 0.510
+Epoch  6, loss: 0.693, acc: 0.486
+Eval epoch  6, loss: 0.693, acc: 0.490
+Epoch  7, loss: 0.694, acc: 0.494
+Eval epoch  7, loss: 0.695, acc: 0.510
+Epoch  8, loss: 0.694, acc: 0.466
+Eval epoch  8, loss: 0.694, acc: 0.510
+Epoch  9, loss: 0.694, acc: 0.506
+Eval epoch  9, loss: 0.695, acc: 0.510
+Epoch 10, loss: 0.693, acc: 0.506
+Eval epoch 10, loss: 0.695, acc: 0.510
+Epoch 11, loss: 0.693, acc: 0.506
+Eval epoch 11, loss: 0.694, acc: 0.510
+Epoch 12, loss: 0.694, acc: 0.484
+Eval epoch 12, loss: 0.693, acc: 0.490
+Epoch 13, loss: 0.693, acc: 0.511
+Eval epoch 13, loss: 0.695, acc: 0.510
+Epoch 14, loss: 0.693, acc: 0.491
+Eval epoch 14, loss: 0.694, acc: 0.510
+Epoch 15, loss: 0.693, acc: 0.506
+Eval epoch 15, loss: 0.695, acc: 0.510
+Epoch 16, loss: 0.694, acc: 0.506
+Eval epoch 16, loss: 0.695, acc: 0.510
+Epoch 17, loss: 0.693, acc: 0.471
+Eval epoch 17, loss: 0.694, acc: 0.510
+Epoch 18, loss: 0.694, acc: 0.506
+Eval epoch 18, loss: 0.695, acc: 0.510
+Epoch 19, loss: 0.693, acc: 0.506
+Eval epoch 19, loss: 0.694, acc: 0.510
+Epoch 20, loss: 0.694, acc: 0.471
+Eval epoch 20, loss: 0.693, acc: 0.490
+Epoch 21, loss: 0.693, acc: 0.504
+Eval epoch 21, loss: 0.694, acc: 0.510
+Epoch 22, loss: 0.693, acc: 0.506
+Eval epoch 22, loss: 0.694, acc: 0.510
+Epoch 23, loss: 0.693, acc: 0.506
+Eval epoch 23, loss: 0.694, acc: 0.510
+Epoch 24, loss: 0.694, acc: 0.464
+Eval epoch 24, loss: 0.693, acc: 0.490
+Epoch 25, loss: 0.694, acc: 0.496
+Eval epoch 25, loss: 0.694, acc: 0.510
+Epoch 26, loss: 0.693, acc: 0.506
+Eval epoch 26, loss: 0.694, acc: 0.510
+Epoch 27, loss: 0.694, acc: 0.506
+Eval epoch 27, loss: 0.695, acc: 0.510
+Epoch 28, loss: 0.693, acc: 0.506
+Eval epoch 28, loss: 0.694, acc: 0.510
+Epoch 29, loss: 0.693, acc: 0.506
+Eval epoch 29, loss: 0.694, acc: 0.510
+Epoch 30, loss: 0.693, acc: 0.506
+Eval epoch 30, loss: 0.694, acc: 0.510
+Epoch 31, loss: 0.694, acc: 0.506
+Eval epoch 31, loss: 0.694, acc: 0.510
+Epoch 32, loss: 0.693, acc: 0.509
+Eval epoch 32, loss: 0.693, acc: 0.490
+Epoch 33, loss: 0.693, acc: 0.494
+Eval epoch 33, loss: 0.693, acc: 0.490
+Epoch 34, loss: 0.693, acc: 0.494
+Eval epoch 34, loss: 0.693, acc: 0.490
+Epoch 35, loss: 0.694, acc: 0.496
+Eval epoch 35, loss: 0.694, acc: 0.510
+Epoch 36, loss: 0.693, acc: 0.481
+Eval epoch 36, loss: 0.693, acc: 0.490
+Epoch 37, loss: 0.693, acc: 0.491
+Eval epoch 37, loss: 0.694, acc: 0.510
+Epoch 38, loss: 0.693, acc: 0.506
+Eval epoch 38, loss: 0.694, acc: 0.510
+Epoch 39, loss: 0.693, acc: 0.506
+Eval epoch 39, loss: 0.694, acc: 0.510
+Epoch 40, loss: 0.693, acc: 0.484
+Eval epoch 40, loss: 0.694, acc: 0.510
+Epoch 41, loss: 0.694, acc: 0.506
+Eval epoch 41, loss: 0.694, acc: 0.510
+Epoch 42, loss: 0.694, acc: 0.506
+Eval epoch 42, loss: 0.695, acc: 0.510
+Epoch 43, loss: 0.693, acc: 0.506
+Eval epoch 43, loss: 0.693, acc: 0.510
+Epoch 44, loss: 0.693, acc: 0.484
+Eval epoch 44, loss: 0.694, acc: 0.510
+Epoch 45, loss: 0.694, acc: 0.506
+Eval epoch 45, loss: 0.695, acc: 0.510
+Epoch 46, loss: 0.693, acc: 0.506
+Eval epoch 46, loss: 0.694, acc: 0.510
+Epoch 47, loss: 0.694, acc: 0.506
+Eval epoch 47, loss: 0.694, acc: 0.510
+Epoch 48, loss: 0.693, acc: 0.506
+Eval epoch 48, loss: 0.693, acc: 0.510
+Epoch 49, loss: 0.693, acc: 0.506
+Eval epoch 49, loss: 0.695, acc: 0.510
+Epoch 50, loss: 0.693, acc: 0.506
+Eval epoch 50, loss: 0.694, acc: 0.510
+Epoch 51, loss: 0.693, acc: 0.506
+Eval epoch 51, loss: 0.694, acc: 0.510
+Epoch 52, loss: 0.693, acc: 0.506
+Eval epoch 52, loss: 0.694, acc: 0.510
+Epoch 53, loss: 0.693, acc: 0.506
+Eval epoch 53, loss: 0.694, acc: 0.510
+Epoch 54, loss: 0.693, acc: 0.506
+Eval epoch 54, loss: 0.695, acc: 0.510
+Epoch 55, loss: 0.694, acc: 0.471
+Eval epoch 55, loss: 0.694, acc: 0.510
+Epoch 56, loss: 0.695, acc: 0.506
+Eval epoch 56, loss: 0.696, acc: 0.510
+Epoch 57, loss: 0.693, acc: 0.506
+Eval epoch 57, loss: 0.693, acc: 0.510
+Epoch 58, loss: 0.693, acc: 0.506
+Eval epoch 58, loss: 0.694, acc: 0.510
+Epoch 59, loss: 0.693, acc: 0.506
+Eval epoch 59, loss: 0.694, acc: 0.510
+Epoch 60, loss: 0.693, acc: 0.484
+Eval epoch 60, loss: 0.693, acc: 0.490
+Epoch 61, loss: 0.694, acc: 0.499
+Eval epoch 61, loss: 0.694, acc: 0.510
+Epoch 62, loss: 0.694, acc: 0.506
+Eval epoch 62, loss: 0.695, acc: 0.510
+Epoch 63, loss: 0.693, acc: 0.491
+Eval epoch 63, loss: 0.693, acc: 0.510
+Epoch 64, loss: 0.693, acc: 0.499
+Eval epoch 64, loss: 0.693, acc: 0.510
+Epoch 65, loss: 0.693, acc: 0.471
+Eval epoch 65, loss: 0.694, acc: 0.510
+Epoch 66, loss: 0.694, acc: 0.506
+Eval epoch 66, loss: 0.695, acc: 0.510
+Epoch 67, loss: 0.693, acc: 0.506
+Eval epoch 67, loss: 0.694, acc: 0.510
+Epoch 68, loss: 0.693, acc: 0.506
+Eval epoch 68, loss: 0.694, acc: 0.510
+Epoch 69, loss: 0.693, acc: 0.506
+Eval epoch 69, loss: 0.694, acc: 0.510
+Epoch 70, loss: 0.693, acc: 0.506
+Eval epoch 70, loss: 0.694, acc: 0.510
+Epoch 71, loss: 0.694, acc: 0.506
+Eval epoch 71, loss: 0.695, acc: 0.510
+Epoch 72, loss: 0.693, acc: 0.506
+Eval epoch 72, loss: 0.694, acc: 0.510
+Epoch 73, loss: 0.693, acc: 0.506
+Eval epoch 73, loss: 0.694, acc: 0.510
+Epoch 74, loss: 0.693, acc: 0.506
+Eval epoch 74, loss: 0.694, acc: 0.510
+Epoch 75, loss: 0.693, acc: 0.506
+Eval epoch 75, loss: 0.693, acc: 0.510
+Epoch 76, loss: 0.693, acc: 0.471
+Eval epoch 76, loss: 0.693, acc: 0.490
+Epoch 77, loss: 0.693, acc: 0.519
+Eval epoch 77, loss: 0.694, acc: 0.510
+Epoch 78, loss: 0.693, acc: 0.506
+Eval epoch 78, loss: 0.695, acc: 0.510
+Epoch 79, loss: 0.693, acc: 0.506
+Eval epoch 79, loss: 0.694, acc: 0.510
+Epoch 80, loss: 0.693, acc: 0.506
+Eval epoch 80, loss: 0.694, acc: 0.510
+Epoch 81, loss: 0.693, acc: 0.506
+Eval epoch 81, loss: 0.694, acc: 0.510
+Epoch 82, loss: 0.693, acc: 0.489
+Eval epoch 82, loss: 0.693, acc: 0.510
+Epoch 83, loss: 0.694, acc: 0.476
+Eval epoch 83, loss: 0.695, acc: 0.510
+Epoch 84, loss: 0.693, acc: 0.506
+Eval epoch 84, loss: 0.694, acc: 0.510
+Epoch 85, loss: 0.694, acc: 0.456
+Eval epoch 85, loss: 0.693, acc: 0.510
+Epoch 86, loss: 0.693, acc: 0.506
+Eval epoch 86, loss: 0.695, acc: 0.510
+Epoch 87, loss: 0.694, acc: 0.506
+Eval epoch 87, loss: 0.695, acc: 0.510
+Epoch 88, loss: 0.694, acc: 0.456
+Eval epoch 88, loss: 0.694, acc: 0.510
+Epoch 89, loss: 0.693, acc: 0.506
+Eval epoch 89, loss: 0.694, acc: 0.510
+Epoch 90, loss: 0.693, acc: 0.506
+Eval epoch 90, loss: 0.694, acc: 0.510
+Epoch 91, loss: 0.694, acc: 0.506
+Eval epoch 91, loss: 0.693, acc: 0.510
+Epoch 92, loss: 0.693, acc: 0.484
+Eval epoch 92, loss: 0.693, acc: 0.490
+Epoch 93, loss: 0.693, acc: 0.501
+Eval epoch 93, loss: 0.694, acc: 0.510
+Epoch 94, loss: 0.693, acc: 0.506
+Eval epoch 94, loss: 0.694, acc: 0.510
+Epoch 95, loss: 0.693, acc: 0.506
+Eval epoch 95, loss: 0.694, acc: 0.510
+Epoch 96, loss: 0.693, acc: 0.506
+Eval epoch 96, loss: 0.694, acc: 0.510
+Epoch 97, loss: 0.693, acc: 0.506
+Eval epoch 97, loss: 0.694, acc: 0.510
+Epoch 98, loss: 0.694, acc: 0.506
+Eval epoch 98, loss: 0.694, acc: 0.510
+Epoch 99, loss: 0.693, acc: 0.506
+Eval epoch 99, loss: 0.694, acc: 0.510
+Epoch 100, loss: 0.693, acc: 0.506
+Eval epoch 100, loss: 0.694, acc: 0.510
+Epoch 101, loss: 0.693, acc: 0.506
+Eval epoch 101, loss: 0.694, acc: 0.510
+loss: 0.697, acc: 0.440
+Epoch  0, loss: 0.696, acc: 0.489
+Eval epoch  0, loss: 0.692, acc: 0.540
+Epoch  1, loss: 0.693, acc: 0.506
+Eval epoch  1, loss: 0.692, acc: 0.540
+Epoch  2, loss: 0.693, acc: 0.506
+Eval epoch  2, loss: 0.692, acc: 0.540
+Epoch  3, loss: 0.693, acc: 0.506
+Eval epoch  3, loss: 0.693, acc: 0.540
+Epoch  4, loss: 0.694, acc: 0.506
+Eval epoch  4, loss: 0.692, acc: 0.540
+Epoch  5, loss: 0.693, acc: 0.506
+Eval epoch  5, loss: 0.693, acc: 0.540
+Epoch  6, loss: 0.693, acc: 0.506
+Eval epoch  6, loss: 0.693, acc: 0.540
+Epoch  7, loss: 0.693, acc: 0.506
+Eval epoch  7, loss: 0.692, acc: 0.540
+Epoch  8, loss: 0.694, acc: 0.506
+Eval epoch  8, loss: 0.692, acc: 0.540
+Epoch  9, loss: 0.693, acc: 0.491
+Eval epoch  9, loss: 0.693, acc: 0.540
+Epoch 10, loss: 0.693, acc: 0.486
+Eval epoch 10, loss: 0.693, acc: 0.540
+Epoch 11, loss: 0.693, acc: 0.506
+Eval epoch 11, loss: 0.693, acc: 0.540
+Epoch 12, loss: 0.693, acc: 0.506
+Eval epoch 12, loss: 0.692, acc: 0.540
+Epoch 13, loss: 0.693, acc: 0.506
+Eval epoch 13, loss: 0.692, acc: 0.540
+Epoch 14, loss: 0.693, acc: 0.506
+Eval epoch 14, loss: 0.692, acc: 0.540
+Epoch 15, loss: 0.694, acc: 0.506
+Eval epoch 15, loss: 0.692, acc: 0.540
+Epoch 16, loss: 0.693, acc: 0.486
+Eval epoch 16, loss: 0.693, acc: 0.460
+Epoch 17, loss: 0.693, acc: 0.506
+Eval epoch 17, loss: 0.692, acc: 0.540
+Epoch 18, loss: 0.693, acc: 0.506
+Eval epoch 18, loss: 0.692, acc: 0.540
+Epoch 19, loss: 0.693, acc: 0.506
+Eval epoch 19, loss: 0.692, acc: 0.540
+Epoch 20, loss: 0.693, acc: 0.506
+Eval epoch 20, loss: 0.692, acc: 0.540
+Epoch 21, loss: 0.693, acc: 0.506
+Eval epoch 21, loss: 0.692, acc: 0.540
+Epoch 22, loss: 0.693, acc: 0.506
+Eval epoch 22, loss: 0.693, acc: 0.540
+Epoch 23, loss: 0.694, acc: 0.451
+Eval epoch 23, loss: 0.693, acc: 0.540
+Epoch 24, loss: 0.694, acc: 0.506
+Eval epoch 24, loss: 0.692, acc: 0.540
+Epoch 25, loss: 0.693, acc: 0.506
+Eval epoch 25, loss: 0.693, acc: 0.540
+Epoch 26, loss: 0.694, acc: 0.466
+Eval epoch 26, loss: 0.693, acc: 0.540
+Epoch 27, loss: 0.693, acc: 0.481
+Eval epoch 27, loss: 0.693, acc: 0.540
+Epoch 28, loss: 0.693, acc: 0.496
+Eval epoch 28, loss: 0.693, acc: 0.540
+Epoch 29, loss: 0.694, acc: 0.506
+Eval epoch 29, loss: 0.692, acc: 0.540
+Epoch 30, loss: 0.693, acc: 0.496
+Eval epoch 30, loss: 0.693, acc: 0.460
+Epoch 31, loss: 0.693, acc: 0.511
+Eval epoch 31, loss: 0.692, acc: 0.540
+Epoch 32, loss: 0.694, acc: 0.506
+Eval epoch 32, loss: 0.692, acc: 0.540
+Epoch 33, loss: 0.693, acc: 0.506
+Eval epoch 33, loss: 0.693, acc: 0.540
+Epoch 34, loss: 0.694, acc: 0.506
+Eval epoch 34, loss: 0.693, acc: 0.540
+Epoch 35, loss: 0.693, acc: 0.506
+Eval epoch 35, loss: 0.693, acc: 0.540
+Epoch 36, loss: 0.693, acc: 0.506
+Eval epoch 36, loss: 0.692, acc: 0.540
+Epoch 37, loss: 0.693, acc: 0.506
+Eval epoch 37, loss: 0.692, acc: 0.540
+Epoch 38, loss: 0.694, acc: 0.459
+Eval epoch 38, loss: 0.693, acc: 0.540
+Epoch 39, loss: 0.694, acc: 0.461
+Eval epoch 39, loss: 0.693, acc: 0.540
+Epoch 40, loss: 0.694, acc: 0.506
+Eval epoch 40, loss: 0.692, acc: 0.540
+Epoch 41, loss: 0.693, acc: 0.506
+Eval epoch 41, loss: 0.692, acc: 0.540
+Epoch 42, loss: 0.693, acc: 0.506
+Eval epoch 42, loss: 0.693, acc: 0.540
+Epoch 43, loss: 0.693, acc: 0.506
+Eval epoch 43, loss: 0.692, acc: 0.540
+Epoch 44, loss: 0.693, acc: 0.506
+Eval epoch 44, loss: 0.692, acc: 0.540
+Epoch 45, loss: 0.693, acc: 0.506
+Eval epoch 45, loss: 0.692, acc: 0.540
+Epoch 46, loss: 0.693, acc: 0.506
+Eval epoch 46, loss: 0.692, acc: 0.540
+Epoch 47, loss: 0.693, acc: 0.506
+Eval epoch 47, loss: 0.692, acc: 0.540
+Epoch 48, loss: 0.694, acc: 0.506
+Eval epoch 48, loss: 0.692, acc: 0.540
+Epoch 49, loss: 0.693, acc: 0.506
+Eval epoch 49, loss: 0.693, acc: 0.540
+Epoch 50, loss: 0.694, acc: 0.506
+Eval epoch 50, loss: 0.692, acc: 0.540
+Epoch 51, loss: 0.694, acc: 0.466
+Eval epoch 51, loss: 0.693, acc: 0.540
+Epoch 52, loss: 0.694, acc: 0.506
+Eval epoch 52, loss: 0.693, acc: 0.540
+Epoch 53, loss: 0.693, acc: 0.506
+Eval epoch 53, loss: 0.693, acc: 0.540
+Epoch 54, loss: 0.693, acc: 0.481
+Eval epoch 54, loss: 0.693, acc: 0.540
+Epoch 55, loss: 0.693, acc: 0.506
+Eval epoch 55, loss: 0.692, acc: 0.540
+Epoch 56, loss: 0.693, acc: 0.506
+Eval epoch 56, loss: 0.692, acc: 0.540
+Epoch 57, loss: 0.693, acc: 0.479
+Eval epoch 57, loss: 0.693, acc: 0.460
+Epoch 58, loss: 0.693, acc: 0.509
+Eval epoch 58, loss: 0.692, acc: 0.540
+Epoch 59, loss: 0.694, acc: 0.466
+Eval epoch 59, loss: 0.693, acc: 0.460
+Epoch 60, loss: 0.693, acc: 0.499
+Eval epoch 60, loss: 0.692, acc: 0.540
+Epoch 61, loss: 0.694, acc: 0.506
+Eval epoch 61, loss: 0.692, acc: 0.540
+Epoch 62, loss: 0.693, acc: 0.506
+Eval epoch 62, loss: 0.693, acc: 0.540
+Epoch 63, loss: 0.693, acc: 0.469
+Eval epoch 63, loss: 0.693, acc: 0.540
+Epoch 64, loss: 0.694, acc: 0.506
+Eval epoch 64, loss: 0.692, acc: 0.540
+Epoch 65, loss: 0.694, acc: 0.476
+Eval epoch 65, loss: 0.693, acc: 0.540
+Epoch 66, loss: 0.694, acc: 0.506
+Eval epoch 66, loss: 0.692, acc: 0.540
+Epoch 67, loss: 0.694, acc: 0.506
+Eval epoch 67, loss: 0.693, acc: 0.540
+Epoch 68, loss: 0.694, acc: 0.506
+Eval epoch 68, loss: 0.692, acc: 0.540
+Epoch 69, loss: 0.693, acc: 0.506
+Eval epoch 69, loss: 0.692, acc: 0.540
+Epoch 70, loss: 0.693, acc: 0.506
+Eval epoch 70, loss: 0.692, acc: 0.540
+Epoch 71, loss: 0.693, acc: 0.506
+Eval epoch 71, loss: 0.692, acc: 0.540
+Epoch 72, loss: 0.693, acc: 0.481
+Eval epoch 72, loss: 0.693, acc: 0.540
+Epoch 73, loss: 0.693, acc: 0.506
+Eval epoch 73, loss: 0.692, acc: 0.540
+Epoch 74, loss: 0.693, acc: 0.506
+Eval epoch 74, loss: 0.692, acc: 0.540
+Epoch 75, loss: 0.694, acc: 0.506
+Eval epoch 75, loss: 0.692, acc: 0.540
+Epoch 76, loss: 0.694, acc: 0.454
+Eval epoch 76, loss: 0.693, acc: 0.460
+Epoch 77, loss: 0.693, acc: 0.504
+Eval epoch 77, loss: 0.692, acc: 0.540
+Epoch 78, loss: 0.693, acc: 0.506
+Eval epoch 78, loss: 0.692, acc: 0.540
+Epoch 79, loss: 0.693, acc: 0.506
+Eval epoch 79, loss: 0.693, acc: 0.540
+Epoch 80, loss: 0.693, acc: 0.506
+Eval epoch 80, loss: 0.692, acc: 0.540
+Epoch 81, loss: 0.693, acc: 0.506
+Eval epoch 81, loss: 0.692, acc: 0.540
+Epoch 82, loss: 0.693, acc: 0.506
+Eval epoch 82, loss: 0.692, acc: 0.540
+Epoch 83, loss: 0.693, acc: 0.506
+Eval epoch 83, loss: 0.693, acc: 0.540
+Epoch 84, loss: 0.694, acc: 0.506
+Eval epoch 84, loss: 0.692, acc: 0.540
+Epoch 85, loss: 0.694, acc: 0.481
+Eval epoch 85, loss: 0.693, acc: 0.540
+Epoch 86, loss: 0.693, acc: 0.506
+Eval epoch 86, loss: 0.693, acc: 0.540
+Epoch 87, loss: 0.693, acc: 0.506
+Eval epoch 87, loss: 0.692, acc: 0.540
+Epoch 88, loss: 0.694, acc: 0.459
+Eval epoch 88, loss: 0.693, acc: 0.540
+Epoch 89, loss: 0.694, acc: 0.506
+Eval epoch 89, loss: 0.692, acc: 0.540
+Epoch 90, loss: 0.693, acc: 0.506
+Eval epoch 90, loss: 0.693, acc: 0.540
+Epoch 91, loss: 0.694, acc: 0.506
+Eval epoch 91, loss: 0.692, acc: 0.540
+Epoch 92, loss: 0.693, acc: 0.484
+Eval epoch 92, loss: 0.693, acc: 0.540
+Epoch 93, loss: 0.693, acc: 0.506
+Eval epoch 93, loss: 0.693, acc: 0.540
+Epoch 94, loss: 0.693, acc: 0.476
+Eval epoch 94, loss: 0.693, acc: 0.540
+Epoch 95, loss: 0.693, acc: 0.486
+Eval epoch 95, loss: 0.692, acc: 0.540
+Epoch 96, loss: 0.694, acc: 0.506
+Eval epoch 96, loss: 0.692, acc: 0.540
+Epoch 97, loss: 0.693, acc: 0.506
+Eval epoch 97, loss: 0.692, acc: 0.540
+Epoch 98, loss: 0.693, acc: 0.506
+Eval epoch 98, loss: 0.692, acc: 0.540
+Epoch 99, loss: 0.693, acc: 0.506
+Eval epoch 99, loss: 0.693, acc: 0.540
+Epoch 100, loss: 0.694, acc: 0.506
+Eval epoch 100, loss: 0.693, acc: 0.540
+Epoch 101, loss: 0.693, acc: 0.506
+Eval epoch 101, loss: 0.692, acc: 0.540
+loss: 0.700, acc: 0.410
+Epoch  0, loss: 0.695, acc: 0.505
+Eval epoch  0, loss: 0.695, acc: 0.480
+Epoch  1, loss: 0.694, acc: 0.505
+Eval epoch  1, loss: 0.695, acc: 0.480
+Epoch  2, loss: 0.693, acc: 0.496
+Eval epoch  2, loss: 0.693, acc: 0.520
+Epoch  3, loss: 0.694, acc: 0.474
+Eval epoch  3, loss: 0.694, acc: 0.480
+Epoch  4, loss: 0.694, acc: 0.502
+Eval epoch  4, loss: 0.695, acc: 0.480
+Epoch  5, loss: 0.693, acc: 0.489
+Eval epoch  5, loss: 0.693, acc: 0.520
+Epoch  6, loss: 0.693, acc: 0.468
+Eval epoch  6, loss: 0.694, acc: 0.480
+Epoch  7, loss: 0.693, acc: 0.505
+Eval epoch  7, loss: 0.695, acc: 0.480
+Epoch  8, loss: 0.693, acc: 0.505
+Eval epoch  8, loss: 0.695, acc: 0.480
+Epoch  9, loss: 0.693, acc: 0.505
+Eval epoch  9, loss: 0.695, acc: 0.480
+Epoch 10, loss: 0.693, acc: 0.505
+Eval epoch 10, loss: 0.694, acc: 0.480
+Epoch 11, loss: 0.694, acc: 0.460
+Eval epoch 11, loss: 0.694, acc: 0.480
+Epoch 12, loss: 0.693, acc: 0.486
+Eval epoch 12, loss: 0.694, acc: 0.480
+Epoch 13, loss: 0.693, acc: 0.505
+Eval epoch 13, loss: 0.695, acc: 0.480
+Epoch 14, loss: 0.693, acc: 0.495
+Eval epoch 14, loss: 0.694, acc: 0.480
+Epoch 15, loss: 0.693, acc: 0.505
+Eval epoch 15, loss: 0.695, acc: 0.480
+Epoch 16, loss: 0.693, acc: 0.505
+Eval epoch 16, loss: 0.694, acc: 0.480
+Epoch 17, loss: 0.693, acc: 0.505
+Eval epoch 17, loss: 0.694, acc: 0.480
+Epoch 18, loss: 0.693, acc: 0.487
+Eval epoch 18, loss: 0.694, acc: 0.480
+Epoch 19, loss: 0.693, acc: 0.505
+Eval epoch 19, loss: 0.695, acc: 0.480
+Epoch 20, loss: 0.693, acc: 0.505
+Eval epoch 20, loss: 0.695, acc: 0.480
+Epoch 21, loss: 0.694, acc: 0.475
+Eval epoch 21, loss: 0.693, acc: 0.520
+Epoch 22, loss: 0.693, acc: 0.485
+Eval epoch 22, loss: 0.694, acc: 0.480
+Epoch 23, loss: 0.693, acc: 0.505
+Eval epoch 23, loss: 0.694, acc: 0.480
+Epoch 24, loss: 0.694, acc: 0.505
+Eval epoch 24, loss: 0.695, acc: 0.480
+Epoch 25, loss: 0.693, acc: 0.505
+Eval epoch 25, loss: 0.695, acc: 0.480
+Epoch 26, loss: 0.693, acc: 0.505
+Eval epoch 26, loss: 0.694, acc: 0.480
+Epoch 27, loss: 0.694, acc: 0.482
+Eval epoch 27, loss: 0.695, acc: 0.480
+Epoch 28, loss: 0.693, acc: 0.505
+Eval epoch 28, loss: 0.694, acc: 0.480
+Epoch 29, loss: 0.693, acc: 0.485
+Eval epoch 29, loss: 0.693, acc: 0.480
+Epoch 30, loss: 0.693, acc: 0.460
+Eval epoch 30, loss: 0.693, acc: 0.480
+Epoch 31, loss: 0.693, acc: 0.480
+Eval epoch 31, loss: 0.695, acc: 0.480
+Epoch 32, loss: 0.693, acc: 0.505
+Eval epoch 32, loss: 0.695, acc: 0.480
+Epoch 33, loss: 0.693, acc: 0.505
+Eval epoch 33, loss: 0.694, acc: 0.480
+Epoch 34, loss: 0.693, acc: 0.475
+Eval epoch 34, loss: 0.694, acc: 0.480
+Epoch 35, loss: 0.693, acc: 0.505
+Eval epoch 35, loss: 0.695, acc: 0.480
+Epoch 36, loss: 0.694, acc: 0.472
+Eval epoch 36, loss: 0.694, acc: 0.480
+Epoch 37, loss: 0.693, acc: 0.505
+Eval epoch 37, loss: 0.695, acc: 0.480
+Epoch 38, loss: 0.693, acc: 0.505
+Eval epoch 38, loss: 0.695, acc: 0.480
+Epoch 39, loss: 0.694, acc: 0.505
+Eval epoch 39, loss: 0.695, acc: 0.480
+Epoch 40, loss: 0.693, acc: 0.505
+Eval epoch 40, loss: 0.693, acc: 0.480
+Epoch 41, loss: 0.693, acc: 0.492
+Eval epoch 41, loss: 0.693, acc: 0.520
+Epoch 42, loss: 0.693, acc: 0.495
+Eval epoch 42, loss: 0.695, acc: 0.480
+Epoch 43, loss: 0.694, acc: 0.505
+Eval epoch 43, loss: 0.696, acc: 0.480
+Epoch 44, loss: 0.694, acc: 0.463
+Eval epoch 44, loss: 0.693, acc: 0.480
+Epoch 45, loss: 0.693, acc: 0.505
+Eval epoch 45, loss: 0.696, acc: 0.480
+Epoch 46, loss: 0.693, acc: 0.505
+Eval epoch 46, loss: 0.694, acc: 0.480
+Epoch 47, loss: 0.694, acc: 0.470
+Eval epoch 47, loss: 0.693, acc: 0.520
+Epoch 48, loss: 0.693, acc: 0.500
+Eval epoch 48, loss: 0.695, acc: 0.480
+Epoch 49, loss: 0.693, acc: 0.505
+Eval epoch 49, loss: 0.696, acc: 0.480
+Epoch 50, loss: 0.693, acc: 0.505
+Eval epoch 50, loss: 0.695, acc: 0.480
+Epoch 51, loss: 0.693, acc: 0.505
+Eval epoch 51, loss: 0.695, acc: 0.480
+Epoch 52, loss: 0.693, acc: 0.505
+Eval epoch 52, loss: 0.695, acc: 0.480
+Epoch 53, loss: 0.693, acc: 0.505
+Eval epoch 53, loss: 0.695, acc: 0.480
+Epoch 54, loss: 0.693, acc: 0.505
+Eval epoch 54, loss: 0.694, acc: 0.480
+Epoch 55, loss: 0.693, acc: 0.505
+Eval epoch 55, loss: 0.694, acc: 0.480
+Epoch 56, loss: 0.693, acc: 0.475
+Eval epoch 56, loss: 0.694, acc: 0.480
+Epoch 57, loss: 0.694, acc: 0.505
+Eval epoch 57, loss: 0.695, acc: 0.480
+Epoch 58, loss: 0.693, acc: 0.505
+Eval epoch 58, loss: 0.695, acc: 0.480
+Epoch 59, loss: 0.693, acc: 0.505
+Eval epoch 59, loss: 0.695, acc: 0.480
+Epoch 60, loss: 0.693, acc: 0.505
+Eval epoch 60, loss: 0.695, acc: 0.480
+Epoch 61, loss: 0.694, acc: 0.470
+Eval epoch 61, loss: 0.693, acc: 0.520
+Epoch 62, loss: 0.693, acc: 0.500
+Eval epoch 62, loss: 0.696, acc: 0.480
+Epoch 63, loss: 0.694, acc: 0.505
+Eval epoch 63, loss: 0.695, acc: 0.480
+Epoch 64, loss: 0.693, acc: 0.505
+Eval epoch 64, loss: 0.694, acc: 0.480
+Epoch 65, loss: 0.693, acc: 0.505
+Eval epoch 65, loss: 0.695, acc: 0.480
+Epoch 66, loss: 0.694, acc: 0.505
+Eval epoch 66, loss: 0.695, acc: 0.480
+Epoch 67, loss: 0.693, acc: 0.505
+Eval epoch 67, loss: 0.694, acc: 0.480
+Epoch 68, loss: 0.693, acc: 0.485
+Eval epoch 68, loss: 0.693, acc: 0.480
+Epoch 69, loss: 0.694, acc: 0.505
+Eval epoch 69, loss: 0.695, acc: 0.480
+Epoch 70, loss: 0.693, acc: 0.490
+Eval epoch 70, loss: 0.694, acc: 0.480
+Epoch 71, loss: 0.693, acc: 0.487
+Eval epoch 71, loss: 0.693, acc: 0.520
+Epoch 72, loss: 0.693, acc: 0.460
+Eval epoch 72, loss: 0.694, acc: 0.480
+Epoch 73, loss: 0.693, acc: 0.505
+Eval epoch 73, loss: 0.695, acc: 0.480
+Epoch 74, loss: 0.693, acc: 0.505
+Eval epoch 74, loss: 0.694, acc: 0.480
+Epoch 75, loss: 0.693, acc: 0.505
+Eval epoch 75, loss: 0.694, acc: 0.480
+Epoch 76, loss: 0.693, acc: 0.485
+Eval epoch 76, loss: 0.694, acc: 0.480
+Epoch 77, loss: 0.693, acc: 0.505
+Eval epoch 77, loss: 0.694, acc: 0.480
+Epoch 78, loss: 0.693, acc: 0.505
+Eval epoch 78, loss: 0.694, acc: 0.480
+Epoch 79, loss: 0.694, acc: 0.477
+Eval epoch 79, loss: 0.693, acc: 0.480
+Epoch 80, loss: 0.693, acc: 0.505
+Eval epoch 80, loss: 0.695, acc: 0.480
+Epoch 81, loss: 0.693, acc: 0.505
+Eval epoch 81, loss: 0.695, acc: 0.480
+Epoch 82, loss: 0.693, acc: 0.505
+Eval epoch 82, loss: 0.695, acc: 0.480
+Epoch 83, loss: 0.694, acc: 0.505
+Eval epoch 83, loss: 0.696, acc: 0.480
+Epoch 84, loss: 0.693, acc: 0.505
+Eval epoch 84, loss: 0.695, acc: 0.480
+Epoch 85, loss: 0.693, acc: 0.505
+Eval epoch 85, loss: 0.695, acc: 0.480
+Epoch 86, loss: 0.694, acc: 0.505
+Eval epoch 86, loss: 0.694, acc: 0.480
+Epoch 87, loss: 0.694, acc: 0.485
+Eval epoch 87, loss: 0.693, acc: 0.520
+Epoch 88, loss: 0.693, acc: 0.492
+Eval epoch 88, loss: 0.693, acc: 0.480
+Epoch 89, loss: 0.693, acc: 0.477
+Eval epoch 89, loss: 0.694, acc: 0.480
+Epoch 90, loss: 0.693, acc: 0.505
+Eval epoch 90, loss: 0.696, acc: 0.480
+Epoch 91, loss: 0.693, acc: 0.505
+Eval epoch 91, loss: 0.695, acc: 0.480
+Epoch 92, loss: 0.694, acc: 0.505
+Eval epoch 92, loss: 0.694, acc: 0.480
+Epoch 93, loss: 0.694, acc: 0.505
+Eval epoch 93, loss: 0.696, acc: 0.480
+Epoch 94, loss: 0.694, acc: 0.472
+Eval epoch 94, loss: 0.693, acc: 0.480
+Epoch 95, loss: 0.694, acc: 0.465
+Eval epoch 95, loss: 0.693, acc: 0.480
+Epoch 96, loss: 0.693, acc: 0.505
+Eval epoch 96, loss: 0.696, acc: 0.480
+Epoch 97, loss: 0.693, acc: 0.505
+Eval epoch 97, loss: 0.696, acc: 0.480
+Epoch 98, loss: 0.693, acc: 0.505
+Eval epoch 98, loss: 0.695, acc: 0.480
+Epoch 99, loss: 0.693, acc: 0.505
+Eval epoch 99, loss: 0.695, acc: 0.480
+Epoch 100, loss: 0.693, acc: 0.505
+Eval epoch 100, loss: 0.694, acc: 0.480
+Epoch 101, loss: 0.693, acc: 0.480
+Eval epoch 101, loss: 0.693, acc: 0.520
+Epoch 102, loss: 0.693, acc: 0.497
+Eval epoch 102, loss: 0.695, acc: 0.480
+Epoch 103, loss: 0.693, acc: 0.505
+Eval epoch 103, loss: 0.695, acc: 0.480
+loss: 0.693, acc: 0.520

@@ -16,15 +16,15 @@ if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
 
 from Configures import data_args, model_args, train_args
-from models.train_gnns import train_GC
+from models.train_gnns import train_GC, train_NC
 
-DATASET = "Graph-SST2" #MUTAG, bbbp, Graph-SST2, BA_2Motifs
-MODEL = "GAT" #GCN, GAT, GIN
+DATASET = "BA_shapes" #MUTAG, bbbp, Graph-SST2, BA_2Motifs??
+MODEL = "GIN" #GCN, GAT, GIN
 SEEDS = [1, 2, 3] #random seeds
 
 # Run one by one by keeping a single item in RUN_STEPS, or run all three in order:
 # ["Original", "ProtGNN", "ProtGNN+"]
-RUN_STEPS = ["Original"]
+RUN_STEPS = ["ProtGNN"]
 
 
 def configure_variant(variant: str) -> None:
@@ -85,7 +85,7 @@ for variant in RUN_STEPS:
              redirect_stdout(f_log), \
              redirect_stderr(f_log):
             print(f"=== Dataset={DATASET} | Variant={variant} | Model={MODEL} | Seed={seed} ===")
-            result = train_GC(clst=0.10, sep=0.05)
+            result = train_NC() if DATASET.lower() == "ba_shapes" else train_GC(clst=0.10, sep=0.05)
         
         runtime_seconds = time.perf_counter() - start_time # efficiency study. records elapsed seconds
         

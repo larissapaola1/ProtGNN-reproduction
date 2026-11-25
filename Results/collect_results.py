@@ -19,11 +19,23 @@ TEST_PATTERN = re.compile(
 
 def parse_log(log_path: Path):
     text = log_path.read_text(encoding="utf-8", errors="replace")
+
+    # Graph classification: Test: | Loss: ... | Acc: ...
     matches = TEST_PATTERN.findall(text)
-    if not matches:
-        return None, None
-    loss_str, acc_str = matches[-1]
-    return float(loss_str), float(acc_str)
+    if matches:
+        loss_str, acc_str = matches[-1]
+        return float(loss_str), float(acc_str)
+
+    # Node classification: Test Loss: ..., Test Accuracy: ...
+    node_pattern = re.compile(
+        r"Test Loss:\s*([0-9.eE+-]+)\s*,\s*Test Accuracy:\s*([0-9.eE+-]+)"
+    )
+    matches = node_pattern.findall(text)
+    if matches:
+        loss_str, acc_str = matches[-1]
+        return float(loss_str), float(acc_str)
+
+    return None, None
 
 
 rows_by_group = {}
