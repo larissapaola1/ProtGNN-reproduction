@@ -1,0 +1,175 @@
+[
+  {
+    "prototype_index": 0,
+    "class_id": 0,
+    "class_name": "non-mutagenic",
+    "graph_index": 131,
+    "similarity": 0.13812045753002167,
+    "selected_atom_indices": [
+      0,
+      1,
+      2,
+      4,
+      5,
+      6,
+      7
+    ],
+    "image": "/Users/paolalarissahernandezllamas/Documents/Documentos - Paola\u2019s MacBook Pro/Fall 26/Generative AI/Working/ProtGNN/projections/results/MUTAG/ProtGNN/GIN/seed_1/prototype_0_non-mutagenic.png"
+  },
+  {
+    "prototype_index": 1,
+    "class_id": 0,
+    "class_name": "non-mutagenic",
+    "graph_index": 132,
+    "similarity": 0.03268572688102722,
+    "selected_atom_indices": [
+      1,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      19,
+      20
+    ],
+    "image": "/Users/paolalarissahernandezllamas/Documents/Documentos - Paola\u2019s MacBook Pro/Fall 26/Generative AI/Working/ProtGNN/projections/results/MUTAG/ProtGNN/GIN/seed_1/prototype_1_non-mutagenic.png"
+  },
+  {
+    "prototype_index": 2,
+    "class_id": 0,
+    "class_name": "non-mutagenic",
+    "graph_index": 132,
+    "similarity": 0.03208351507782936,
+    "selected_atom_indices": [
+      1,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      19,
+      20
+    ],
+    "image": "/Users/paolalarissahernandezllamas/Documents/Documentos - Paola\u2019s MacBook Pro/Fall 26/Generative AI/Working/ProtGNN/projections/results/MUTAG/ProtGNN/GIN/seed_1/prototype_2_non-mutagenic.png"
+  },
+  {
+    "prototype_index": 3,
+    "class_id": 0,
+    "class_name": "non-mutagenic",
+    "graph_index": 130,
+    "similarity": 0.03946296125650406,
+    "selected_atom_indices": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "image": "/Users/paolalarissahernandezllamas/Documents/Documentos - Paola\u2019s MacBook Pro/Fall 26/Generative AI/Working/ProtGNN/projections/results/MUTAG/ProtGNN/GIN/seed_1/prototype_3_non-mutagenic.png"
+  },
+  {
+    "prototype_index": 4,
+    "class_id": 0,
+    "class_name": "non-mutagenic",
+    "graph_index": 113,
+    "similarity": 0.04219876229763031,
+    "selected_atom_indices": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "image": "/Users/paolalarissahernandezllamas/Documents/Documentos - Paola\u2019s MacBook Pro/Fall 26/Generative AI/Working/ProtGNN/projections/results/MUTAG/ProtGNN/GIN/seed_1/prototype_4_non-mutagenic.png"
+  },
+  {
+    "prototype_index": 5,
+    "class_id": 1,
+    "class_name": "mutagenic",
+    "graph_index": 43,
+    "similarity": 0.0015234065940603614,
+    "selected_atom_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      9,
+      10
+    ],
+    "image": "/Users/paolalarissahernandezllamas/Documents/Documentos - Paola\u2019s MacBook Pro/Fall 26/Generative AI/Working/ProtGNN/projections/results/MUTAG/ProtGNN/GIN/seed_1/prototype_5_mutagenic.png"
+  },
+  {
+    "prototype_index": 6,
+    "class_id": 1,
+    "class_name": "mutagenic",
+    "graph_index": 62,
+    "similarity": 0.024987835437059402,
+    "selected_atom_indices": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "image": "/Users/paolalarissahernandezllamas/Documents/Documentos - Paola\u2019s MacBook Pro/Fall 26/Generative AI/Working/ProtGNN/projections/results/MUTAG/ProtGNN/GIN/seed_1/prototype_6_mutagenic.png"
+  },
+  {
+    "prototype_index": 7,
+    "class_id": 1,
+    "class_name": "mutagenic",
+    "graph_index": 93,
+    "similarity": 0.02480376698076725,
+    "selected_atom_indices": [
+      11,
+      12,
+      13,
+      14
+    ],
+    "image": "/Users/paolalarissahernandezllamas/Documents/Documentos - Paola\u2019s MacBook Pro/Fall 26/Generative AI/Working/ProtGNN/projections/results/MUTAG/ProtGNN/GIN/seed_1/prototype_7_mutagenic.png"
+  },
+  {
+    "prototype_index": 8,
+    "class_id": 1,
+    "class_name": "mutagenic",
+    "graph_index": 62,
+    "similarity": 0.02566532976925373,
+    "selected_atom_indices": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "image": "/Users/paolalarissahernandezllamas/Documents/Documentos - Paola\u2019s MacBook Pro/Fall 26/Generative AI/Working/ProtGNN/projections/results/MUTAG/ProtGNN/GIN/seed_1/prototype_8_mutagenic.png"
+  },
+  {
+    "prototype_index": 9,
+    "class_id": 1,
+    "class_name": "mutagenic",
+    "graph_index": 5,
+    "similarity": 0.023801786825060844,
+    "selected_atom_indices": [
+      5,
+      6,
+      7,
+      15
+    ],
+    "image": "/Users/paolalarissahernandezllamas/Documents/Documentos - Paola\u2019s MacBook Pro/Fall 26/Generative AI/Working/ProtGNN/projections/results/MUTAG/ProtGNN/GIN/seed_1/prototype_9_mutagenic.png"
+  }
+]

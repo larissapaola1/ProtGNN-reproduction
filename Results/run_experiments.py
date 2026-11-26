@@ -18,8 +18,8 @@ if str(PROJECT_ROOT) not in sys.path:
 from Configures import data_args, model_args, train_args
 from models.train_gnns import train_GC, train_NC
 
-DATASET = "BA_shapes" #MUTAG, bbbp, Graph-SST2, BA_2Motifs??
-MODEL = "GIN" #GCN, GAT, GIN
+DATASET = "MUTAG" #MUTAG, bbbp, Graph-SST2, BA_2Motifs??
+MODEL = "GCN" #GCN, GAT, GIN
 SEEDS = [1, 2, 3] #random seeds
 
 # Run one by one by keeping a single item in RUN_STEPS, or run all three in order:

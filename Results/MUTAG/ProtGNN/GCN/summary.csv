@@ -1,4 +1,4 @@
-seed,test_acc,test_loss,runtime_seconds,log_file
-1,0.75,0.545,361.0346651659929,/Users/paolalarissahernandezllamas/Documents/Documentos - Paola’s MacBook Pro/Fall 26/Generative AI/Working/ProtGNN/Results/MUTAG/ProtGNN/GCN/seed_1/train.log
-2,0.75,0.688,744.73411833297,/Users/paolalarissahernandezllamas/Documents/Documentos - Paola’s MacBook Pro/Fall 26/Generative AI/Working/ProtGNN/Results/MUTAG/ProtGNN/GCN/seed_2/train.log
-3,0.55,0.668,408.0045607910142,/Users/paolalarissahernandezllamas/Documents/Documentos - Paola’s MacBook Pro/Fall 26/Generative AI/Working/ProtGNN/Results/MUTAG/ProtGNN/GCN/seed_3/train.log
+seed,test_acc,runtime_seconds,log_file
+1,0.75,357.4139373750004,/Users/paolalarissahernandezllamas/Documents/Documentos - Paola’s MacBook Pro/Fall 26/Generative AI/Working/ProtGNN/Results/MUTAG/ProtGNN/GCN/seed_1/train.log
+2,0.75,752.5459807500006,/Users/paolalarissahernandezllamas/Documents/Documentos - Paola’s MacBook Pro/Fall 26/Generative AI/Working/ProtGNN/Results/MUTAG/ProtGNN/GCN/seed_2/train.log
+3,0.55,416.03791158400054,/Users/paolalarissahernandezllamas/Documents/Documentos - Paola’s MacBook Pro/Fall 26/Generative AI/Working/ProtGNN/Results/MUTAG/ProtGNN/GCN/seed_3/train.log

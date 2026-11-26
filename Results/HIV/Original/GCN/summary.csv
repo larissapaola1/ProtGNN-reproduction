@@ -1,0 +1,4 @@
+seed,test_acc,test_loss,runtime_seconds,log_file
+1,0.965,0.151,1213.2276203329675,/Users/paolalarissahernandezllamas/Documents/Documentos - Paola’s MacBook Pro/Fall 26/Generative AI/Working/ProtGNN/Results/HIV/Original/GCN/seed_1/train.log
+2,0.967,0.144,1154.1474712919444,/Users/paolalarissahernandezllamas/Documents/Documentos - Paola’s MacBook Pro/Fall 26/Generative AI/Working/ProtGNN/Results/HIV/Original/GCN/seed_2/train.log
+3,0.967,0.147,1086.7367703750497,/Users/paolalarissahernandezllamas/Documents/Documentos - Paola’s MacBook Pro/Fall 26/Generative AI/Working/ProtGNN/Results/HIV/Original/GCN/seed_3/train.log

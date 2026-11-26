@@ -39,7 +39,44 @@ Paper: [ProtGNN: Towards Self-Explaining Graph Neural Networks](https://arxiv.or
 - Budget penalty weight: `λ_b = 0.01`; subgraph budget: `B = 10`.
 - The paper says SGD is used to optimize the sampling objective in Eq. (14).
 
-## 2. Changes made in this reproduction: how we did it
+
+## 2. Running experiments
+
+1. Open `Results/run_experiments.py` and choose the experiment by editing these constants near the top:
+   ```python
+   DATASET = "HIV"                    # e.g. "MUTAG", "bbbp", "Graph-SST2"
+   MODEL = "GCN"                      # "GCN", "GAT", or "GIN"
+   SEEDS = [1, 2, 3]
+   RUN_STEPS = ["ProtGNN"]            # "Original" or "ProtGNN"
+   ```
+   Use `RUN_STEPS = ["Original", "ProtGNN"]` to run both. ProtGNN+ is not fully implemented in this reproduction.
+
+2. From the repository root, with the project environment activated, run:
+   ```bash
+   PYTHONPATH=. python3 ./Results/run_experiments.py
+   ```
+
+3. Find each run’s log and checkpoints under `Results/<DATASET>/<VARIANT>/<MODEL>/seed_<SEED>/`. The runner also writes `summary.csv` and `summary.json` in the model folder. For example, the current HIV run writes under `Results/HIV/ProtGNN/GCN/`.
+
+4. To print the collected accuracy and runtime tables after runs finish, run:
+   ```bash
+   python3 ./Results/collect_results.py
+   ```
+
+   For a first-time HIV run, PyG downloads/processes the dataset under `datasets/`. BA-Shape is node classification; the runner selects `train_NC()` for it, and its node-classification model support differs from the graph-classification models.
+
+### Projections visualizer
+
+After training a ProtGNN run, set `DATASET`, `MODEL`, `VARIANT = "ProtGNN"`, and `SEED` in `projections/projections.py` to match its checkpoint. From the repository root, run:
+
+```bash
+python3 ./projections/projections.py
+```
+
+It saves prototype subgraph images and `projection_manifest.json` under `projections/results/<DATASET>/<VARIANT>/<MODEL>/seed_<SEED>/`. The current plotter supports MUTAG; HIV needs dataset-specific plotting support.
+
+
+## 3. Changes made in this reproduction: how we did it
 
 1. **Diversity-loss weight and threshold** (`models/train_gnns.py:208–217`)
    - **BEFORE:** The diversity-loss multiplier was `0.00`.
@@ -109,11 +146,12 @@ Paper: [ProtGNN: Towards Self-Explaining Graph Neural Networks](https://arxiv.or
    - **BEFORE:** The wrapper expected four values, but GAT/GIN node-classification models return three (logits, probabilities, embeddings), causing an unpacking `ValueError`.
    - **FIX:** Accept either three or four values and use an empty prototype-distance list when the model returns three, allowing the Original node-classification path to continue.
 
-## 3. Reproduction limits and deviations
+## 4. Reproduction limits and deviations
 
 - The runner currently uses three seeds like the paper. Randomness might give different results.
-- `Results/run_experiments.py` runs only the dataset, backbone, and variants selected in its constants. Its current selection is `MUTAG`, `GCN`, and `ProtGNN`; edit the constants to run other combinations.
+- `Results/run_experiments.py` runs only the dataset, backbone, and variants selected in its constants. Its current selection is `HIV`, `GCN`, and `ProtGNN`; edit the constants to run other combinations.
 - **ProtGNN+ is not fully implemented.** `ModelParser` and `TrainParser` do not define active ProtGNN+ sampling flags, and `train_GC` does not run the conditional subgraph-sampling training loop. The `hasattr` checks in the runner do not activate a real module; `warm_epochs=200` alone does not reproduce ProtGNN+.
 - The paper’s three-layer edge learner, SGD update for Eq. (14), and budget constraint are not wired into `train_GC`. Do not report ProtGNN+ accuracy or timing as reproduced until that training path is implemented.
 - Check each ProtGNN log for “Projection of prototype completed.” If early stopping ends a run before epoch 100, its prototypes were not projected.
 - Runtime currently measures the full `train_GC` call, including data loading, training, projection, test evaluation, and checkpoint writing. Use the same timing method and machine for every method you compare.
+

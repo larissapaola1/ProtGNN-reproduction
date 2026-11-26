@@ -1,0 +1,150 @@
+[
+  {
+    "prototype_index": 0,
+    "class_id": 0,
+    "class_name": "inactive",
+    "graph_index": 32005,
+    "similarity": 0.0003912875254172832,
+    "selected_atom_indices": [
+      5,
+      6,
+      7,
+      12,
+      13,
+      21,
+      22
+    ],
+    "image": "/Users/paolalarissahernandezllamas/Documents/Documentos - Paola\u2019s MacBook Pro/Fall 26/Generative AI/Working/ProtGNN/projections/results/HIV/ProtGNN/GCN/seed_1/prototype_0_inactive.png"
+  },
+  {
+    "prototype_index": 1,
+    "class_id": 0,
+    "class_name": "inactive",
+    "graph_index": 14167,
+    "similarity": 0.0005339150666259229,
+    "selected_atom_indices": [
+      4,
+      6,
+      9,
+      10,
+      12,
+      13
+    ],
+    "image": "/Users/paolalarissahernandezllamas/Documents/Documentos - Paola\u2019s MacBook Pro/Fall 26/Generative AI/Working/ProtGNN/projections/results/HIV/ProtGNN/GCN/seed_1/prototype_1_inactive.png"
+  },
+  {
+    "prototype_index": 2,
+    "class_id": 0,
+    "class_name": "inactive",
+    "graph_index": 14167,
+    "similarity": 2.3483953555114567e-05,
+    "selected_atom_indices": [
+      10,
+      12,
+      19
+    ],
+    "image": "/Users/paolalarissahernandezllamas/Documents/Documentos - Paola\u2019s MacBook Pro/Fall 26/Generative AI/Working/ProtGNN/projections/results/HIV/ProtGNN/GCN/seed_1/prototype_2_inactive.png"
+  },
+  {
+    "prototype_index": 3,
+    "class_id": 0,
+    "class_name": "inactive",
+    "graph_index": 5877,
+    "similarity": 0.0003116837178822607,
+    "selected_atom_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      6,
+      7,
+      8,
+      9,
+      20
+    ],
+    "image": "/Users/paolalarissahernandezllamas/Documents/Documentos - Paola\u2019s MacBook Pro/Fall 26/Generative AI/Working/ProtGNN/projections/results/HIV/ProtGNN/GCN/seed_1/prototype_3_inactive.png"
+  },
+  {
+    "prototype_index": 4,
+    "class_id": 0,
+    "class_name": "inactive",
+    "graph_index": 38991,
+    "similarity": 2.50339189733495e-06,
+    "selected_atom_indices": [
+      24,
+      25
+    ],
+    "image": "/Users/paolalarissahernandezllamas/Documents/Documentos - Paola\u2019s MacBook Pro/Fall 26/Generative AI/Working/ProtGNN/projections/results/HIV/ProtGNN/GCN/seed_1/prototype_4_inactive.png"
+  },
+  {
+    "prototype_index": 5,
+    "class_id": 1,
+    "class_name": "active",
+    "graph_index": 18997,
+    "similarity": 0.0005994430393911898,
+    "selected_atom_indices": [
+      4,
+      5,
+      6,
+      20
+    ],
+    "image": "/Users/paolalarissahernandezllamas/Documents/Documentos - Paola\u2019s MacBook Pro/Fall 26/Generative AI/Working/ProtGNN/projections/results/HIV/ProtGNN/GCN/seed_1/prototype_5_active.png"
+  },
+  {
+    "prototype_index": 6,
+    "class_id": 1,
+    "class_name": "active",
+    "graph_index": 18997,
+    "similarity": 0.0005994430393911898,
+    "selected_atom_indices": [
+      4,
+      5,
+      6,
+      20
+    ],
+    "image": "/Users/paolalarissahernandezllamas/Documents/Documentos - Paola\u2019s MacBook Pro/Fall 26/Generative AI/Working/ProtGNN/projections/results/HIV/ProtGNN/GCN/seed_1/prototype_6_active.png"
+  },
+  {
+    "prototype_index": 7,
+    "class_id": 1,
+    "class_name": "active",
+    "graph_index": 18997,
+    "similarity": 0.0005994430393911898,
+    "selected_atom_indices": [
+      4,
+      5,
+      6,
+      20
+    ],
+    "image": "/Users/paolalarissahernandezllamas/Documents/Documentos - Paola\u2019s MacBook Pro/Fall 26/Generative AI/Working/ProtGNN/projections/results/HIV/ProtGNN/GCN/seed_1/prototype_7_active.png"
+  },
+  {
+    "prototype_index": 8,
+    "class_id": 1,
+    "class_name": "active",
+    "graph_index": 18997,
+    "similarity": 0.0005994430393911898,
+    "selected_atom_indices": [
+      4,
+      5,
+      6,
+      20
+    ],
+    "image": "/Users/paolalarissahernandezllamas/Documents/Documentos - Paola\u2019s MacBook Pro/Fall 26/Generative AI/Working/ProtGNN/projections/results/HIV/ProtGNN/GCN/seed_1/prototype_8_active.png"
+  },
+  {
+    "prototype_index": 9,
+    "class_id": 1,
+    "class_name": "active",
+    "graph_index": 18997,
+    "similarity": 0.0005994430393911898,
+    "selected_atom_indices": [
+      4,
+      5,
+      6,
+      20
+    ],
+    "image": "/Users/paolalarissahernandezllamas/Documents/Documentos - Paola\u2019s MacBook Pro/Fall 26/Generative AI/Working/ProtGNN/projections/results/HIV/ProtGNN/GCN/seed_1/prototype_9_active.png"
+  }
+]

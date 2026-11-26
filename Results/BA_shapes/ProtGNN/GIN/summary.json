@@ -1,0 +1,22 @@
+{
+  "dataset": "BA_shapes",
+  "variant": "ProtGNN",
+  "model": "GIN",
+  "num_seeds": 1,
+  "seeds": [
+    1
+  ],
+  "runs": [
+    {
+      "seed": 1,
+      "test_acc": null,
+      "test_loss": null,
+      "runtime_seconds": null,
+      "log_file": "/Users/paolalarissahernandezllamas/Documents/Documentos - Paola\u2019s MacBook Pro/Fall 26/Generative AI/Working/ProtGNN/Results/BA_shapes/ProtGNN/GIN/seed_1/train.log"
+    }
+  ],
+  "mean_acc": null,
+  "std_acc": null,
+  "mean_runtime_seconds": null,
+  "std_runtime_seconds": null
+}
