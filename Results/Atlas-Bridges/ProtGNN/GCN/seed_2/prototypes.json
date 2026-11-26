@@ -1,0 +1,187 @@
+[
+  {
+    "prototype": 0,
+    "class": 0,
+    "atlas_id": 1053,
+    "nodes": [
+      1,
+      2,
+      4,
+      5,
+      6
+    ],
+    "similarity": 0.010018776170909405,
+    "cue": 0,
+    "source_bridges": []
+  },
+  {
+    "prototype": 1,
+    "class": 0,
+    "atlas_id": 1153,
+    "nodes": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "similarity": 0.009741388261318207,
+    "cue": 0,
+    "source_bridges": []
+  },
+  {
+    "prototype": 2,
+    "class": 0,
+    "atlas_id": 1089,
+    "nodes": [
+      0,
+      1,
+      2,
+      4,
+      5,
+      6
+    ],
+    "similarity": 0.11245765537023544,
+    "cue": 0,
+    "source_bridges": []
+  },
+  {
+    "prototype": 3,
+    "class": 0,
+    "atlas_id": 1065,
+    "nodes": [
+      0,
+      2,
+      3,
+      5,
+      6
+    ],
+    "similarity": 0.01192252803593874,
+    "cue": 0,
+    "source_bridges": []
+  },
+  {
+    "prototype": 4,
+    "class": 0,
+    "atlas_id": 1084,
+    "nodes": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      6
+    ],
+    "similarity": 0.010684192180633545,
+    "cue": 0,
+    "source_bridges": []
+  },
+  {
+    "prototype": 5,
+    "class": 1,
+    "atlas_id": 477,
+    "nodes": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "similarity": 0.003173674223944545,
+    "cue": 0,
+    "source_bridges": [
+      [
+        1,
+        6
+      ],
+      [
+        2,
+        5
+      ]
+    ]
+  },
+  {
+    "prototype": 6,
+    "class": 1,
+    "atlas_id": 477,
+    "nodes": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "similarity": 0.0030794364865869284,
+    "cue": 0,
+    "source_bridges": [
+      [
+        1,
+        6
+      ],
+      [
+        2,
+        5
+      ]
+    ]
+  },
+  {
+    "prototype": 7,
+    "class": 1,
+    "atlas_id": 764,
+    "nodes": [
+      1,
+      2,
+      3,
+      5,
+      6
+    ],
+    "similarity": 0.8614199757575989,
+    "cue": 0,
+    "source_bridges": [
+      [
+        2,
+        6
+      ]
+    ]
+  },
+  {
+    "prototype": 8,
+    "class": 1,
+    "atlas_id": 781,
+    "nodes": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "similarity": 0.00327800284139812,
+    "cue": 0,
+    "source_bridges": [
+      [
+        1,
+        6
+      ]
+    ]
+  },
+  {
+    "prototype": 9,
+    "class": 1,
+    "atlas_id": 781,
+    "nodes": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "similarity": 0.0031505017541348934,
+    "cue": 0,
+    "source_bridges": [
+      [
+        1,
+        6
+      ]
+    ]
+  }
+]

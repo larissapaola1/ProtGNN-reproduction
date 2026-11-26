@@ -1,0 +1,15 @@
+{
+  "python": "3.13.18",
+  "torch": "2.13.0+cu130",
+  "pyg": "2.8.1",
+  "numpy": "2.5.4",
+  "networkx": "3.7",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "device": "cpu",
+  "torch_threads": 1,
+  "seeds": [
+    1,
+    2,
+    3
+  ]
+}

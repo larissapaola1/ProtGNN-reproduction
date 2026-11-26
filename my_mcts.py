@@ -11,7 +11,6 @@ from torch_geometric.utils import to_networkx
 from functools import partial
 from collections import Counter
 from multiprocessing import Pool
-from utils import PlotUtils
 
 
 class MCTSNode():
@@ -160,6 +159,7 @@ def gnn_prot_score(coalition, data, gnnNet, prototype):
 
 
 if __name__ == '__main__':
+    from utils import PlotUtils
     from models import GnnNets, GnnNets_NC
     from load_dataset import get_dataset, get_dataloader
     from Configures import data_args, train_args, model_args
